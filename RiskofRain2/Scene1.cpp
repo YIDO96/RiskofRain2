@@ -15,7 +15,7 @@ Scene1::~Scene1()
 
 void Scene1::Init()
 {
-
+	// Ãß°¡
 }
 
 void Scene1::Release()

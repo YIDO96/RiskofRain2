@@ -1,0 +1,31 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 중간 디렉터리(C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\\Build\Obj\)에 다른 프로젝트(MapTool.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
+  Main.cpp
+C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\AssetImpoter\Main.h(53,1): warning C4099: 'VertexWeights': 처음에는 'class'을(를) 사용하여 형식 이름을 표시했는데 이제는 'struct'을(를) 사용하여 표시합니다.
+C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\AssetImpoter\Main.h(52,8): message : 'VertexWeights' 선언을 참조하십시오.
+C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\AssetImpoter\Main.cpp(112,21): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\AssetImpoter\Main.cpp(561,17): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\AssetImpoter\Main.cpp(605,25): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\AssetImpoter\Main.cpp(631,25): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\AssetImpoter\Main.cpp(666,17): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\AssetImpoter\Main.cpp(731,25): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\AssetImpoter\Main.cpp(754,25): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\AssetImpoter\Main.cpp(776,65): warning C4099: 'VertexWeights': 처음에는 'struct'을(를) 사용하여 형식 이름을 표시했는데 이제는 'class'을(를) 사용하여 표시합니다.
+C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\AssetImpoter\Main.h(52,8): message : 'VertexWeights' 선언을 참조하십시오.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\xutility(265,77): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(2092,13): message : 컴파일되는 함수 템플릿 인스턴스화 'void std::_Construct_in_place<_Ty,VertexModel*,unsigned __int64,unsigned int*,unsigned __int64,VertexType>(_Ty &,VertexModel *&&,unsigned __int64 &&,unsigned int *&&,unsigned __int64 &&,VertexType &&) noexcept(false)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=Mesh
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\memory(2765,46): message : 컴파일되는 함수 템플릿 인스턴스화 'std::_Ref_count_obj2<Mesh>::_Ref_count_obj2<_Ty,unsigned __int64,unsigned int*,unsigned __int64,VertexType>(_Ty &&,unsigned __int64 &&,unsigned int *&&,unsigned __int64 &&,VertexType &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=VertexModel *
+          ]
+C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\AssetImpoter\Main.cpp(598,26): message : 컴파일되는 함수 템플릿 인스턴스화 'std::shared_ptr<Mesh> std::make_shared<Mesh,_Ty*,unsigned __int64,unsigned int*,unsigned __int64,VertexType>(_Ty *&&,unsigned __int64 &&,unsigned int *&&,unsigned __int64 &&,VertexType &&)'에 대한 참조를 확인하세요.
+          with
+          [
+              _Ty=VertexModel
+          ]
+     C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\\Build\AssetImpoter.lib 라이브러리 및 C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\\Build\AssetImpoter.exp 개체를 생성하고 있습니다.
+  AssetImpoter.vcxproj -> C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\AssetImpoter.exe

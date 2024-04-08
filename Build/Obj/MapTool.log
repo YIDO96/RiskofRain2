@@ -1,0 +1,6 @@
+﻿  Main.cpp
+C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\MapTool\Main.cpp(182,16): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\MapTool\Main.cpp(219,22): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\MapTool\Main.cpp(220,21): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\\Build\MapTool.lib 라이브러리 및 C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\\Build\MapTool.exp 개체를 생성하고 있습니다.
+  MapTool.vcxproj -> C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\MapTool.exe

@@ -23,5 +23,6 @@ public:
     bool                Intersect(Collider* target);
     bool                Intersect(Vector3 coord);
     bool                Intersect(Ray Ray, Vector3& Hit);
+    Vector3             GetNormalVector(const Vector3 moveDir);
 };
 

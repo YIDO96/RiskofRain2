@@ -135,13 +135,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="InGameUI.h" />
+    <ClInclude Include="Inventory.h" />
     <ClInclude Include="Main.h" />
-    <ClInclude Include="Scene1.h" />
+    <ClInclude Include="MainPlayScene.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerBullet.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Unit.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="InGameUI.cpp" />
+    <ClCompile Include="Inventory.cpp" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Scene1.cpp" />
+    <ClCompile Include="MainPlayScene.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerBullet.cpp" />
+    <ClCompile Include="Unit.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,5 +1,5 @@
-﻿  Animation.cpp
-  AStar.cpp
+﻿  AStar.cpp
+  Animation.cpp
   Billboard.cpp
   BinaryFile.cpp
   BlendState.cpp
@@ -18,27 +18,27 @@
   Input.cpp
   Light.cpp
   Material.cpp
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Collider.cpp(157,8): warning C4101: 'Dis' :참조되지 않은 지역 변수입니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Grid.cpp(23,10): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Grid.cpp(26,10): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\AStar.cpp(143,12): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\AStar.cpp(144,12): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Dwrite.cpp(181,32): warning C4267: '인수': 'size_t'에서 'UINT32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\AStar.cpp(283,39): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\AStar.cpp(329,15): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\AStar.cpp(330,15): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\AStar.cpp(332,23): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\CubeRenderTarget.cpp(11,16): warning C4244: '=': 'float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\CubeRenderTarget.cpp(12,17): warning C4244: '=': 'float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\CubeRenderTarget.cpp(49,16): warning C4244: '=': 'float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\CubeRenderTarget.cpp(50,17): warning C4244: '=': 'float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\CubeRenderTarget.cpp(73,23): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\CubeRenderTarget.cpp(89,26): warning C4244: '인수': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\CubeRenderTarget.cpp(89,19): warning C4244: '인수': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\CubeRenderTarget.cpp(222,16): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\CubeRenderTarget.cpp(235,16): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\GameObjectSaveLoad.cpp(324,46): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\GameObjectSaveLoad.cpp(325,46): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\AStar.cpp(143,12): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\AStar.cpp(144,12): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\AStar.cpp(283,39): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\AStar.cpp(329,15): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\AStar.cpp(330,15): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\AStar.cpp(332,23): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\Grid.cpp(23,10): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\Grid.cpp(26,10): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\Dwrite.cpp(181,32): warning C4267: '인수': 'size_t'에서 'UINT32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\CubeRenderTarget.cpp(11,16): warning C4244: '=': 'float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\CubeRenderTarget.cpp(12,17): warning C4244: '=': 'float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\CubeRenderTarget.cpp(49,16): warning C4244: '=': 'float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\CubeRenderTarget.cpp(50,17): warning C4244: '=': 'float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\CubeRenderTarget.cpp(73,23): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\CubeRenderTarget.cpp(89,26): warning C4244: '인수': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\CubeRenderTarget.cpp(89,19): warning C4244: '인수': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\GameObjectSaveLoad.cpp(324,46): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\GameObjectSaveLoad.cpp(325,46): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\CubeRenderTarget.cpp(222,16): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\CubeRenderTarget.cpp(235,16): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\Collider.cpp(157,8): warning C4101: 'Dis' :참조되지 않은 지역 변수입니다.
   Mesh.cpp
   Pop.cpp
   PostEffect.cpp
@@ -59,31 +59,28 @@ C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\GameObjectSaveL
   Transform.cpp
   UI.cpp
   Utility.cpp
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Mesh.cpp(631,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Mesh.cpp(647,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Mesh.cpp(660,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-  Water.cpp
-  Window.cpp
-  Xml.cpp
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Pop.cpp(70,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Utility.cpp(187,32): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Utility.cpp(188,16): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Utility.cpp(230,32): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Utility.cpp(231,16): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Terrain.cpp(52,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Terrain.cpp(247,28): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Shader.cpp(99,19): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Shader.cpp(113,73): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\SlashTrail.cpp(73,23): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\SlashTrail.cpp(91,44): warning C4267: '=': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\SlashTrail.cpp(133,37): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Rain.cpp(114,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\RenderTarget.cpp(9,22): warning C4244: '=': 'float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\RenderTarget.cpp(10,23): warning C4244: '=': 'float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\RenderTarget.cpp(104,29): warning C4244: '인수': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\RenderTarget.cpp(104,22): warning C4244: '인수': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\RenderTarget.cpp(129,19): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\RenderTarget.cpp(130,20): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\Rain.cpp(114,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\Mesh.cpp(631,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\Mesh.cpp(647,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\Mesh.cpp(660,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\RenderTarget.cpp(9,22): warning C4244: '=': 'float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\RenderTarget.cpp(10,23): warning C4244: '=': 'float'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\RenderTarget.cpp(104,29): warning C4244: '인수': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\RenderTarget.cpp(104,22): warning C4244: '인수': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\RenderTarget.cpp(129,19): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\RenderTarget.cpp(130,20): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\SlashTrail.cpp(73,23): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\SlashTrail.cpp(91,44): warning C4267: '=': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\SlashTrail.cpp(133,37): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\Shader.cpp(99,19): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\Shader.cpp(113,73): warning C4267: '인수': 'size_t'에서 'UINT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\Utility.cpp(187,32): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\Utility.cpp(188,16): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\Utility.cpp(230,32): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\Utility.cpp(231,16): warning C4244: '=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\Terrain.cpp(52,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\Pop.cpp(70,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\vs2022Project\RiskofRain2\2DFrameWork\Terrain.cpp(247,28): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\xstring(2765,53): warning C4244: '인수': 'wchar_t'에서 'const _Elem'(으)로 변환하면서 데이터가 손실될 수 있습니다.
           with
           [
@@ -103,11 +100,14 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.3253
               _Iter=wchar_t *,
               _Alloc=std::allocator<char>
           ] (소스 파일 컴파일 중 Utility.cpp)
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Utility.cpp(38,6): message : 컴파일되는 함수 템플릿 인스턴스화 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::assign<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(const _Iter,const _Iter)'에 대한 참조를 확인하세요.
+C:\vs2022Project\RiskofRain2\2DFrameWork\Utility.cpp(38,6): message : 컴파일되는 함수 템플릿 인스턴스화 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::assign<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(const _Iter,const _Iter)'에 대한 참조를 확인하세요.
           with
           [
               _Elem=wchar_t,
               _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>
           ]
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Utility.cpp(38,13): message : 'Utility::ToString'에서 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::assign'에 대한 첫 번째 참조를 확인하세요.
-  2DFrameWork.vcxproj -> C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\2DFrameWork.lib
+C:\vs2022Project\RiskofRain2\2DFrameWork\Utility.cpp(38,13): message : 'Utility::ToString'에서 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::assign'에 대한 첫 번째 참조를 확인하세요.
+  Water.cpp
+  Window.cpp
+  Xml.cpp
+  2DFrameWork.vcxproj -> C:\vs2022Project\RiskofRain2\Build\2DFrameWork\2DFrameWork.lib

@@ -1,6 +1,5 @@
 #include "stdafx.h"
 #include "Main.h"
-#include "Scene1.h"
 
 Main::Main()
 {
@@ -16,7 +15,7 @@ Main::~Main()
 
 void Main::Init()
 {
-    SCENE->AddScene("SC1", new Scene1);
+    SCENE->AddScene("SC1", new MainPlayScene);
     SCENE->ChangeScene("SC1");
 }
 

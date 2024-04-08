@@ -1,43 +1,43 @@
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Animation.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\Animation.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\AStar.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\AStar.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Billboard.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\Billboard.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\BinaryFile.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\BinaryFile.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\BlendState.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\BlendState.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Camera.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\Camera.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Collider.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\Collider.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\CubeRenderTarget.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\CubeRenderTarget.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Deferred.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\Deferred.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\DepthState.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\DepthState.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Direct3D11.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\Direct3D11.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Dwrite.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\Dwrite.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\GameObject.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\GameObject.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\GameObjectGui.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\GameObjectGui.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\GameObjectSaveLoad.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\GameObjectSaveLoad.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Grid.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\Grid.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Gui.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\Gui.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Input.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\Input.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Light.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\Light.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Material.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\Material.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Mesh.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\Mesh.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Pop.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\Pop.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\PostEffect.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\PostEffect.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Rain.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\Rain.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Random.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\Random.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\RasterState.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\RasterState.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\RenderTarget.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\RenderTarget.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\ResouceManager.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\ResouceManager.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\SceneManager.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\SceneManager.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Shader.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\Shader.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Skeleton.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\Skeleton.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Sky.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\Sky.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\SlashTrail.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\SlashTrail.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Sound.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\Sound.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Terrain.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\Terrain.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Texture.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\Texture.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Timer.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\Timer.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Transform.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\Transform.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\UI.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\UI.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Utility.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\Utility.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Water.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\Water.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Window.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\Window.obj
-C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\2DFrameWork\Xml.cpp;C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\2DFrameWork\Obj\Xml.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\Animation.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\Animation.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\AStar.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\AStar.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\Billboard.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\Billboard.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\BinaryFile.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\BinaryFile.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\BlendState.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\BlendState.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\Camera.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\Camera.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\Collider.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\Collider.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\CubeRenderTarget.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\CubeRenderTarget.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\Deferred.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\Deferred.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\DepthState.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\DepthState.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\Direct3D11.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\Direct3D11.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\Dwrite.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\Dwrite.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\GameObject.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\GameObject.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\GameObjectGui.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\GameObjectGui.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\GameObjectSaveLoad.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\GameObjectSaveLoad.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\Grid.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\Grid.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\Gui.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\Gui.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\Input.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\Input.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\Light.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\Light.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\Material.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\Material.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\Mesh.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\Mesh.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\Pop.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\Pop.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\PostEffect.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\PostEffect.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\Rain.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\Rain.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\Random.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\Random.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\RasterState.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\RasterState.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\RenderTarget.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\RenderTarget.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\ResouceManager.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\ResouceManager.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\SceneManager.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\SceneManager.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\Shader.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\Shader.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\Skeleton.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\Skeleton.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\Sky.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\Sky.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\SlashTrail.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\SlashTrail.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\Sound.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\Sound.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\Terrain.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\Terrain.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\Texture.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\Texture.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\Timer.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\Timer.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\Transform.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\Transform.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\UI.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\UI.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\Utility.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\Utility.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\Water.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\Water.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\Window.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\Window.obj
+C:\vs2022Project\RiskofRain2\2DFrameWork\Xml.cpp;C:\vs2022Project\RiskofRain2\Build\2DFrameWork\Obj\Xml.obj

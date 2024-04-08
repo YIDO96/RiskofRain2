@@ -1,4 +1,97 @@
-﻿  Main.cpp
-  Scene1.cpp
-     C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\\Build\RiskofRain2.lib 라이브러리 및 C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\\Build\RiskofRain2.exp 개체를 생성하고 있습니다.
-  RiskofRain2.vcxproj -> C:\Users\leesh\OneDrive\바탕 화면\STUDY\D3DStudy\Build\RiskofRain2.exe
+﻿  Bullet.cpp
+  GameManager.cpp
+  InGameUI.cpp
+  Inventory.cpp
+  Main.cpp
+  MainPlayScene.cpp
+  Player.cpp
+  PlayerBullet.cpp
+  Unit.cpp
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(129,56): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(130,56): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(131,28): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(132,30): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(146,60): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(147,60): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(148,28): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(149,30): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(154,60): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(155,60): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(156,28): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(157,30): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(161,59): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(162,59): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(163,28): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(164,30): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(169,59): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(170,59): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(171,28): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(172,30): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(176,59): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(177,59): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(178,28): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(179,30): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(192,53): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(193,53): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(194,28): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(195,30): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(199,53): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(200,31): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(201,28): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(202,30): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\Player.cpp(326,40): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\Player.cpp(326,34): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\Player.cpp(326,28): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\Player.cpp(354,38): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\Player.cpp(354,33): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\Player.cpp(354,28): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\Player.cpp(355,10): error C2039: 'bulletPool': 'GameManager'의 멤버가 아닙니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\GameManager.h(2,7): message : 'GameManager' 선언을 참조하십시오.
+C:\vs2022Project\RiskofRain2\RiskofRain2\Player.cpp(357,25): error C2039: 'bulletPool': 'GameManager'의 멤버가 아닙니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\GameManager.h(2,7): message : 'GameManager' 선언을 참조하십시오.
+C:\vs2022Project\RiskofRain2\RiskofRain2\Player.cpp(357,48): error C3536: 'it': 초기화되기 전에 사용할 수 없습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\Player.cpp(357,55): error C2039: 'bulletPool': 'GameManager'의 멤버가 아닙니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\GameManager.h(2,7): message : 'GameManager' 선언을 참조하십시오.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(223,53): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\Player.cpp(359,16): error C2100: 간접 참조가 잘못되었습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\Player.cpp(361,9): error C2100: 간접 참조가 잘못되었습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(224,53): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(225,28): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(226,30): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\Player.cpp(397,42): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\Player.cpp(397,36): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\Player.cpp(397,30): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\Player.cpp(398,12): error C2039: 'bulletPool': 'GameManager'의 멤버가 아닙니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\GameManager.h(2,7): message : 'GameManager' 선언을 참조하십시오.
+C:\vs2022Project\RiskofRain2\RiskofRain2\Player.cpp(400,27): error C2039: 'bulletPool': 'GameManager'의 멤버가 아닙니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\GameManager.h(2,7): message : 'GameManager' 선언을 참조하십시오.
+C:\vs2022Project\RiskofRain2\RiskofRain2\Player.cpp(400,50): error C3536: 'it': 초기화되기 전에 사용할 수 없습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\Player.cpp(400,57): error C2039: 'bulletPool': 'GameManager'의 멤버가 아닙니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\GameManager.h(2,7): message : 'GameManager' 선언을 참조하십시오.
+C:\vs2022Project\RiskofRain2\RiskofRain2\Player.cpp(402,18): error C2100: 간접 참조가 잘못되었습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\Player.cpp(404,11): error C2100: 간접 참조가 잘못되었습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(235,32): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(236,53): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(237,28): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(238,30): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(246,53): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(247,53): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(248,28): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(249,30): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(257,90): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(258,90): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(259,29): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(260,31): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(261,82): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(268,94): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(269,94): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(270,29): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(271,31): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(272,86): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(278,89): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(279,89): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(280,29): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(281,31): warning C4244: '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\InGameUI.cpp(282,81): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\Inventory.cpp(26,13): error C2039: 'ui': 'GameManager'의 멤버가 아닙니다.
+C:\vs2022Project\RiskofRain2\RiskofRain2\GameManager.h(2,7): message : 'GameManager' 선언을 참조하십시오.

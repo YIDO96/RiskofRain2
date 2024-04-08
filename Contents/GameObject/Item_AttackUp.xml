@@ -1,0 +1,25 @@
+<Root Name="Actor" Visible="true" ObType="1" BoneIndex="0">
+    <Skeleton File="syringe/syringe.skel" BoneIndexCount="3"/>
+    <Mesh File="1.Sphere.mesh"/>
+    <Shader File="3.Cube.hlsl"/>
+    <Material File="Item_AttackUp.mtl"/>
+    <Transform>
+        <Position X="0" Y="0" Z="0"/>
+        <Scale X="0.30000001" Y="0.30000001" Z="0.30000001"/>
+        <Rotation X="0" Y="0" Z="0"/>
+    </Transform>
+    <Children Size="1"/>
+    <Child0 Name="Collider" Visible="true" ObType="0" BoneIndex="-1">
+        <Collider ColliderType="2" Visible="true">
+            <Position X="0" Y="0" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Collider>
+        <Transform>
+            <Position X="0" Y="0" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <Children Size="0"/>
+    </Child0>
+</Root>

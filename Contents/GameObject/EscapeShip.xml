@@ -1,0 +1,132 @@
+<Root Name="Root" Visible="true" ObType="1" BoneIndex="0">
+    <Skeleton File="mdlEscape/mdlEscape.skel" BoneIndexCount="13"/>
+    <Animations AnimSize="6" File0="mdlEscape/mdlEscapeAnim0.anim" File1="mdlEscape/mdlEscapeAnim1.anim" File2="mdlEscape/mdlEscapeAnim2.anim" File3="mdlEscape/mdlEscapeAnim3.anim" File4="mdlEscape/mdlEscapeAnim4.anim" File5="mdlEscape/mdlEscapeAnim5.anim"/>
+    <Transform>
+        <Position X="20.957169" Y="-2.1451113" Z="41.766495"/>
+        <Scale X="1" Y="1" Z="1"/>
+        <Rotation X="0" Y="0" Z="0"/>
+    </Transform>
+    <Children Size="2"/>
+    <Child0 Name="EscapeCam" Visible="true" ObType="2" BoneIndex="-1">
+        <Transform>
+            <Position X="-0.064882152" Y="7.1111689" Z="-26.498676"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0.23151559" Y="-0.073002644" Z="0"/>
+        </Transform>
+        <Camera Ortho="false" Fov="1.047192" Width="1920" Height="1009" NearZ="0.1" FarZ="500" viewportX="0" viewportY="0" viewportW="1920" viewportH="1009"/>
+        <Children Size="0"/>
+    </Child0>
+    <Child1 Name="RootNode" Visible="true" ObType="0" BoneIndex="1">
+        <Transform>
+            <Position X="0" Y="1.35" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="-0"/>
+        </Transform>
+        <Children Size="1"/>
+        <Child0 Name="mdlEscapePod" Visible="true" ObType="0" BoneIndex="2">
+            <Shader File="4.Cube.hlsl"/>
+            <Transform>
+                <Position X="0" Y="0" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="1.5707963" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="2"/>
+            <Child0 Name="Base" Visible="true" ObType="0" BoneIndex="3">
+                <Shader File="4.Cube.hlsl"/>
+                <Transform>
+                    <Position X="0" Y="0" Z="1.2557076"/>
+                    <Scale X="1" Y="1" Z="0.99999994"/>
+                    <Rotation X="-1.5707963" Y="0.20203491" Z="0"/>
+                </Transform>
+                <Children Size="3"/>
+                <Child0 Name="Door" Visible="true" ObType="0" BoneIndex="4">
+                    <Shader File="4.Cube.hlsl"/>
+                    <Transform>
+                        <Position X="2.8871e-08" Y="1.622431" Z="-1.1572565"/>
+                        <Scale X="1" Y="1" Z="1"/>
+                        <Rotation X="1.5707963" Y="3.1415923" Z="0"/>
+                    </Transform>
+                    <Children Size="2"/>
+                    <Child0 Name="Door_end" Visible="true" ObType="0" BoneIndex="5">
+                        <Shader File="4.Cube.hlsl"/>
+                        <Transform>
+                            <Position X="0" Y="0.2679584" Z="0"/>
+                            <Scale X="1" Y="1" Z="1"/>
+                            <Rotation X="0" Y="0" Z="-0"/>
+                        </Transform>
+                        <Children Size="0"/>
+                    </Child0>
+                    <Child1 Name="EscapePodDoorMesh" Visible="true" ObType="0" BoneIndex="6">
+                        <Mesh File="mdlEscape/EscapePodDoorMesh.mesh"/>
+                        <Shader File="4.Cube.hlsl"/>
+                        <Material File="mdlEscape/Default-Material.mtl"/>
+                        <Transform>
+                            <Position X="0" Y="0.26795828" Z="2.9802326e-08"/>
+                            <Scale X="1" Y="1" Z="1"/>
+                            <Rotation X="7.4505282e-09" Y="-1.7136335e-07" Z="3.1415923"/>
+                        </Transform>
+                        <Children Size="0"/>
+                    </Child1>
+                </Child0>
+                <Child1 Name="EscapePodMesh" Visible="true" ObType="0" BoneIndex="7">
+                    <Mesh File="mdlEscape/EscapePodMesh.mesh"/>
+                    <Shader File="4.Cube.hlsl"/>
+                    <Material File="mdlEscape/Default-Material.mtl"/>
+                    <Transform>
+                        <Position X="-2.9802322e-08" Y="0.7933374" Z="0"/>
+                        <Scale X="1" Y="1" Z="1"/>
+                        <Rotation X="1.5707963" Y="1.4901158e-08" Z="0"/>
+                    </Transform>
+                    <Children Size="0"/>
+                </Child1>
+                <Child2 Name="RotatingPanel" Visible="true" ObType="0" BoneIndex="8">
+                    <Shader File="4.Cube.hlsl"/>
+                    <Transform>
+                        <Position X="6.9412636e-09" Y="0.7933374" Z="-3.9289065e-09"/>
+                        <Scale X="1" Y="1" Z="1"/>
+                        <Rotation X="0" Y="0" Z="-0"/>
+                    </Transform>
+                    <Children Size="2"/>
+                    <Child0 Name="EscapePodMesh.002" Visible="true" ObType="0" BoneIndex="9">
+                        <Mesh File="mdlEscape/EscapePodMesh.002.mesh"/>
+                        <Shader File="4.Cube.hlsl"/>
+                        <Material File="mdlEscape/Default-Material.mtl"/>
+                        <Transform>
+                            <Position X="2.9802322e-08" Y="0.018690705" Z="-1.4901163e-08"/>
+                            <Scale X="1" Y="1" Z="1"/>
+                            <Rotation X="1.5707963" Y="1.9557778e-08" Z="0"/>
+                        </Transform>
+                        <Children Size="0"/>
+                    </Child0>
+                    <Child1 Name="RotatingPanel_end" Visible="true" ObType="0" BoneIndex="10">
+                        <Shader File="4.Cube.hlsl"/>
+                        <Transform>
+                            <Position X="0" Y="1.0186907" Z="0"/>
+                            <Scale X="1" Y="1" Z="1"/>
+                            <Rotation X="0" Y="0" Z="-0"/>
+                        </Transform>
+                        <Children Size="0"/>
+                    </Child1>
+                </Child2>
+            </Child0>
+            <Child1 Name="Camera" Visible="true" ObType="0" BoneIndex="11">
+                <Shader File="4.Cube.hlsl"/>
+                <Transform>
+                    <Position X="0" Y="-14.296976" Z="-3.1405177"/>
+                    <Scale X="0.99999994" Y="0.99999994" Z="1"/>
+                    <Rotation X="0.21445894" Y="-0.0052949316" Z="0.023180323"/>
+                </Transform>
+                <Children Size="1"/>
+                <Child0 Name="Camera_end" Visible="true" ObType="0" BoneIndex="12">
+                    <Shader File="4.Cube.hlsl"/>
+                    <Transform>
+                        <Position X="0" Y="0.41712141" Z="0"/>
+                        <Scale X="1" Y="1" Z="1"/>
+                        <Rotation X="0" Y="0" Z="-0"/>
+                    </Transform>
+                    <Children Size="0"/>
+                </Child0>
+            </Child1>
+        </Child0>
+    </Child1>
+</Root>

@@ -1,0 +1,466 @@
+<Root Name="Beetle" Visible="true" ObType="1" BoneIndex="0">
+    <Skeleton File="beetleMesh/beetleMesh.skel" BoneIndexCount="48"/>
+    <Animations AnimSize="43" File0="beetleMesh/mdlBeetleAni0.anim" File1="beetleMesh/mdlBeetleAni1.anim" File2="beetleMesh/mdlBeetleAni2.anim" File3="beetleMesh/mdlBeetleAni3.anim" File4="beetleMesh/mdlBeetleAni4.anim" File5="beetleMesh/mdlBeetleAni5.anim" File6="beetleMesh/mdlBeetleAni6.anim" File7="beetleMesh/mdlBeetleAni7.anim" File8="beetleMesh/mdlBeetleAni8.anim" File9="beetleMesh/mdlBeetleAni9.anim" File10="beetleMesh/mdlBeetleAni10.anim" File11="beetleMesh/mdlBeetleAni11.anim" File12="beetleMesh/mdlBeetleAni12.anim" File13="beetleMesh/mdlBeetleAni13.anim" File14="beetleMesh/mdlBeetleAni14.anim" File15="beetleMesh/mdlBeetleAni15.anim" File16="beetleMesh/mdlBeetleAni16.anim" File17="beetleMesh/mdlBeetleAni17.anim" File18="beetleMesh/mdlBeetleAni18.anim" File19="/mdlLemurianAni0.anim" File20="/mdlLemurianAni1.anim" File21="/mdlLemurianAni2.anim" File22="/mdlLemurianAni3.anim" File23="/mdlLemurianAni4.anim" File24="/mdlLemurianAni5.anim" File25="/mdlLemurianAni6.anim" File26="/mdlLemurianAni7.anim" File27="/mdlLemurianAni8.anim" File28="/mdlLemurianAni9.anim" File29="/mdlLemurianAni10.anim" File30="/mdlLemurianAni11.anim" File31="/mdlLemurianAni12.anim" File32="/mdlLemurianAni13.anim" File33="/mdlLemurianAni14.anim" File34="/mdlLemurianAni15.anim" File35="/mdlLemurianAni16.anim" File36="/mdlLemurianAni17.anim" File37="/mdlLemurianAni18.anim" File38="/mdlLemurianAni19.anim" File39="/mdlLemurianAni20.anim" File40="/mdlLemurianAni21.anim" File41="/mdlLemurianAni22.anim" File42="/mdlLemurianAni23.anim"/>
+    <Transform>
+        <Position X="0" Y="0" Z="0"/>
+        <Scale X="0.5" Y="0.5" Z="0.5"/>
+        <Rotation X="0" Y="0" Z="0"/>
+    </Transform>
+    <Children Size="3"/>
+    <Child0 Name="RootNode" Visible="true" ObType="0" BoneIndex="1">
+        <Collider ColliderType="2" Visible="false">
+            <Position X="0" Y="1.2" Z="0"/>
+            <Scale X="1" Y="1.45" Z="1"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Collider>
+        <Transform>
+            <Position X="0" Y="0" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="-0"/>
+        </Transform>
+        <Children Size="2"/>
+        <Child0 Name="BeetleArmature" Visible="true" ObType="0" BoneIndex="3">
+            <Shader File="4.Cube.hlsl"/>
+            <Transform>
+                <Position X="0" Y="0" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="1.5707961" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="1"/>
+            <Child0 Name="ROOT" Visible="true" ObType="0" BoneIndex="4">
+                <Shader File="4.Cube.hlsl"/>
+                <Transform>
+                    <Position X="0" Y="0.0029" Z="-0.48280001"/>
+                    <Scale X="1" Y="1" Z="1"/>
+                    <Rotation X="-1.5707963" Y="3.1415923" Z="0"/>
+                </Transform>
+                <Children Size="5"/>
+                <Child0 Name="armIK.l" Visible="true" ObType="0" BoneIndex="36">
+                    <Shader File="4.Cube.hlsl"/>
+                    <Transform>
+                        <Position X="-2.5135" Y="-0.9357" Z="-0.51169997"/>
+                        <Scale X="1" Y="1" Z="1"/>
+                        <Rotation X="-1.5707963" Y="2.3784001" Z="0"/>
+                    </Transform>
+                    <Children Size="1"/>
+                    <Child0 Name="armPole.l" Visible="true" ObType="0" BoneIndex="37">
+                        <Shader File="4.Cube.hlsl"/>
+                        <Transform>
+                            <Position X="-3.2766905" Y="2.2584441" Z="-0.33989999"/>
+                            <Scale X="0.99999994" Y="0.99999994" Z="1"/>
+                            <Rotation X="-0" Y="0" Z="0.78539306"/>
+                        </Transform>
+                        <Children Size="1"/>
+                        <Child0 Name="armPole.l_end" Visible="true" ObType="0" BoneIndex="38">
+                            <Shader File="4.Cube.hlsl"/>
+                            <Transform>
+                                <Position X="1.571854e-05" Y="0.36557278" Z="0"/>
+                                <Scale X="1" Y="1" Z="1"/>
+                                <Rotation X="0" Y="0" Z="-0"/>
+                            </Transform>
+                            <Children Size="0"/>
+                        </Child0>
+                    </Child0>
+                </Child0>
+                <Child1 Name="armIK.r" Visible="true" ObType="0" BoneIndex="45">
+                    <Shader File="4.Cube.hlsl"/>
+                    <Transform>
+                        <Position X="2.5135" Y="-0.9357" Z="-0.51169997"/>
+                        <Scale X="1" Y="1" Z="1"/>
+                        <Rotation X="-1.5707963" Y="-2.3784003" Z="0"/>
+                    </Transform>
+                    <Children Size="1"/>
+                    <Child0 Name="armPole.r" Visible="true" ObType="0" BoneIndex="46">
+                        <Shader File="4.Cube.hlsl"/>
+                        <Transform>
+                            <Position X="3.2766905" Y="2.2584441" Z="-0.33989999"/>
+                            <Scale X="0.99999994" Y="0.99999994" Z="1"/>
+                            <Rotation X="0" Y="0" Z="-0.78539306"/>
+                        </Transform>
+                        <Children Size="1"/>
+                        <Child0 Name="armPole.r_end" Visible="true" ObType="0" BoneIndex="47">
+                            <Shader File="4.Cube.hlsl"/>
+                            <Transform>
+                                <Position X="-1.571854e-05" Y="0.36557278" Z="0"/>
+                                <Scale X="1" Y="1" Z="1"/>
+                                <Rotation X="0" Y="0" Z="-0"/>
+                            </Transform>
+                            <Children Size="0"/>
+                        </Child0>
+                    </Child0>
+                </Child1>
+                <Child2 Name="base" Visible="true" ObType="0" BoneIndex="5">
+                    <Shader File="4.Cube.hlsl"/>
+                    <Transform>
+                        <Position X="-1.2325952e-32" Y="-1.0707" Z="0.57920003"/>
+                        <Scale X="1" Y="1" Z="1"/>
+                        <Rotation X="-1.5707963" Y="-0" Z="0"/>
+                    </Transform>
+                    <Children Size="2"/>
+                    <Child0 Name="chest" Visible="true" ObType="0" BoneIndex="6">
+                        <Shader File="4.Cube.hlsl"/>
+                        <Transform>
+                            <Position X="1.2325952e-32" Y="0.4928" Z="0"/>
+                            <Scale X="1" Y="1" Z="1"/>
+                            <Rotation X="1.2953258" Y="3.1415923" Z="-3.214079e-07"/>
+                        </Transform>
+                        <Children Size="3"/>
+                        <Child0 Name="Head" Visible="true" ObType="0" BoneIndex="7">
+                            <Shader File="4.Cube.hlsl"/>
+                            <Collider ColliderType="2" Visible="false">
+                                <Position X="0" Y="0" Z="0"/>
+                                <Scale X="1" Y="1.2" Z="0.5"/>
+                                <Rotation X="0" Y="0" Z="0"/>
+                            </Collider>
+                            <Transform>
+                                <Position X="-3.0814879e-33" Y="0.84453517" Z="1.4089926e-05"/>
+                                <Scale X="1" Y="1" Z="1"/>
+                                <Rotation X="0.21608727" Y="3.1415923" Z="8.9504297e-08"/>
+                            </Transform>
+                            <Children Size="1"/>
+                            <Child0 Name="Head_end" Visible="true" ObType="0" BoneIndex="8">
+                                <Shader File="4.Cube.hlsl"/>
+                                <Transform>
+                                    <Position X="-5.4572968e-33" Y="0" Z="2.0959946e-05"/>
+                                    <Scale X="1" Y="1" Z="1"/>
+                                    <Rotation X="0" Y="0" Z="-0"/>
+                                </Transform>
+                                <Children Size="0"/>
+                            </Child0>
+                        </Child0>
+                        <Child1 Name="upper_arm.l" Visible="true" ObType="0" BoneIndex="9">
+                            <Shader File="4.Cube.hlsl"/>
+                            <Transform>
+                                <Position X="0.48649999" Y="0.39357293" Z="0.0024439772"/>
+                                <Scale X="1" Y="1" Z="0.99999994"/>
+                                <Rotation X="0.67444563" Y="-2.9230366" Z="1.8773347"/>
+                            </Transform>
+                            <Children Size="1"/>
+                            <Child0 Name="lower_arm.l" Visible="true" ObType="0" BoneIndex="10">
+                                <Shader File="4.Cube.hlsl"/>
+                                <Transform>
+                                    <Position X="-1.2079496e-05" Y="1.2229443" Z="5.4130647e-05"/>
+                                    <Scale X="0.99999994" Y="1" Z="1"/>
+                                    <Rotation X="-0.046714127" Y="-0.71503353" Z="-0.60116303"/>
+                                </Transform>
+                                <Children Size="4"/>
+                                <Child0 Name="finger1.l" Visible="true" ObType="0" BoneIndex="11">
+                                    <Shader File="4.Cube.hlsl"/>
+                                    <Transform>
+                                        <Position X="-0.017058773" Y="1.1239724" Z="-0.039310817"/>
+                                        <Scale X="1" Y="1" Z="1"/>
+                                        <Rotation X="0.12661104" Y="-1.4331921" Z="-0.014056516"/>
+                                    </Transform>
+                                    <Children Size="1"/>
+                                    <Child0 Name="finger1.l_end" Visible="true" ObType="0" BoneIndex="12">
+                                        <Shader File="4.Cube.hlsl"/>
+                                        <Transform>
+                                            <Position X="3.984947e-05" Y="0.22722137" Z="-0.00014964308"/>
+                                            <Scale X="1" Y="1" Z="1"/>
+                                            <Rotation X="-9.2829599e-05" Y="4.0512867e-05" Z="-8.7167224e-05"/>
+                                        </Transform>
+                                        <Children Size="0"/>
+                                    </Child0>
+                                </Child0>
+                                <Child1 Name="finger2.l" Visible="true" ObType="0" BoneIndex="13">
+                                    <Shader File="4.Cube.hlsl"/>
+                                    <Transform>
+                                        <Position X="-0.016780563" Y="1.128579" Z="-0.00096865342"/>
+                                        <Scale X="1" Y="1" Z="1"/>
+                                        <Rotation X="0.12820199" Y="-1.4272417" Z="-0.027114678"/>
+                                    </Transform>
+                                    <Children Size="1"/>
+                                    <Child0 Name="finger2.l_end" Visible="true" ObType="0" BoneIndex="14">
+                                        <Shader File="4.Cube.hlsl"/>
+                                        <Transform>
+                                            <Position X="-5.6224428e-05" Y="0.32940567" Z="8.3613704e-05"/>
+                                            <Scale X="1" Y="1" Z="1"/>
+                                            <Rotation X="6.0363993e-05" Y="4.0203624e-05" Z="-8.6837565e-05"/>
+                                        </Transform>
+                                        <Children Size="0"/>
+                                    </Child0>
+                                </Child1>
+                                <Child2 Name="finger3.l" Visible="true" ObType="0" BoneIndex="15">
+                                    <Shader File="4.Cube.hlsl"/>
+                                    <Transform>
+                                        <Position X="-0.0066333702" Y="1.1241111" Z="0.051620428"/>
+                                        <Scale X="1" Y="1" Z="1"/>
+                                        <Rotation X="0.12820199" Y="-1.4272417" Z="-0.027114678"/>
+                                    </Transform>
+                                    <Children Size="1"/>
+                                    <Child0 Name="finger3.l_end" Visible="true" ObType="0" BoneIndex="16">
+                                        <Shader File="4.Cube.hlsl"/>
+                                        <Transform>
+                                            <Position X="-5.6224428e-05" Y="0.32940567" Z="8.3613704e-05"/>
+                                            <Scale X="1" Y="1" Z="1"/>
+                                            <Rotation X="6.0363993e-05" Y="4.0203624e-05" Z="-8.6837565e-05"/>
+                                        </Transform>
+                                        <Children Size="0"/>
+                                    </Child0>
+                                </Child2>
+                                <Child3 Name="thumb.l" Visible="true" ObType="0" BoneIndex="17">
+                                    <Shader File="4.Cube.hlsl"/>
+                                    <Transform>
+                                        <Position X="-0.082226761" Y="0.71710932" Z="0.0031596189"/>
+                                        <Scale X="1" Y="1" Z="1"/>
+                                        <Rotation X="1.0200107" Y="-1.4625306" Z="-0.042898327"/>
+                                    </Transform>
+                                    <Children Size="1"/>
+                                    <Child0 Name="thumb.l_end" Visible="true" ObType="0" BoneIndex="18">
+                                        <Shader File="4.Cube.hlsl"/>
+                                        <Transform>
+                                            <Position X="-3.7496934e-06" Y="0.22727664" Z="-2.103173e-05"/>
+                                            <Scale X="1" Y="1" Z="1"/>
+                                            <Rotation X="-8.4052284e-05" Y="0" Z="-0"/>
+                                        </Transform>
+                                        <Children Size="0"/>
+                                    </Child0>
+                                </Child3>
+                            </Child0>
+                        </Child1>
+                        <Child2 Name="upper_arm.r" Visible="true" ObType="0" BoneIndex="19">
+                            <Shader File="4.Cube.hlsl"/>
+                            <Transform>
+                                <Position X="-0.48649999" Y="0.39357293" Z="0.0024439772"/>
+                                <Scale X="1" Y="1" Z="0.99999994"/>
+                                <Rotation X="0.67444563" Y="2.9230366" Z="-1.8773347"/>
+                            </Transform>
+                            <Children Size="1"/>
+                            <Child0 Name="lower_arm.r" Visible="true" ObType="0" BoneIndex="20">
+                                <Shader File="4.Cube.hlsl"/>
+                                <Transform>
+                                    <Position X="1.2079496e-05" Y="1.2229443" Z="5.4130647e-05"/>
+                                    <Scale X="0.99999994" Y="1" Z="1"/>
+                                    <Rotation X="-0.046714127" Y="0.71503353" Z="0.60116303"/>
+                                </Transform>
+                                <Children Size="4"/>
+                                <Child0 Name="finger1.r" Visible="true" ObType="0" BoneIndex="21">
+                                    <Shader File="4.Cube.hlsl"/>
+                                    <Transform>
+                                        <Position X="0.017058773" Y="1.1239724" Z="-0.039310817"/>
+                                        <Scale X="1" Y="1" Z="1"/>
+                                        <Rotation X="0.12661104" Y="1.4331921" Z="0.014056516"/>
+                                    </Transform>
+                                    <Children Size="1"/>
+                                    <Child0 Name="finger1.r_end" Visible="true" ObType="0" BoneIndex="22">
+                                        <Shader File="4.Cube.hlsl"/>
+                                        <Transform>
+                                            <Position X="0.00011077852" Y="0.22732843" Z="1.1125786e-05"/>
+                                            <Scale X="1" Y="1" Z="1"/>
+                                            <Rotation X="-9.2829599e-05" Y="-4.0512867e-05" Z="8.7167224e-05"/>
+                                        </Transform>
+                                        <Children Size="0"/>
+                                    </Child0>
+                                </Child0>
+                                <Child1 Name="finger2.r" Visible="true" ObType="0" BoneIndex="23">
+                                    <Shader File="4.Cube.hlsl"/>
+                                    <Transform>
+                                        <Position X="0.016780563" Y="1.128579" Z="-0.00096865342"/>
+                                        <Scale X="1" Y="1" Z="1"/>
+                                        <Rotation X="0.12820199" Y="1.4272417" Z="0.027114678"/>
+                                    </Transform>
+                                    <Children Size="1"/>
+                                    <Child0 Name="finger2.r_end" Visible="true" ObType="0" BoneIndex="24">
+                                        <Shader File="4.Cube.hlsl"/>
+                                        <Transform>
+                                            <Position X="-6.780534e-05" Y="0.32938728" Z="-3.5890087e-05"/>
+                                            <Scale X="1" Y="1" Z="1"/>
+                                            <Rotation X="6.0363993e-05" Y="-4.0203624e-05" Z="8.6837565e-05"/>
+                                        </Transform>
+                                        <Children Size="0"/>
+                                    </Child0>
+                                </Child1>
+                                <Child2 Name="finger3.r" Visible="true" ObType="0" BoneIndex="25">
+                                    <Shader File="4.Cube.hlsl"/>
+                                    <Transform>
+                                        <Position X="0.0066333702" Y="1.1241111" Z="0.051620428"/>
+                                        <Scale X="1" Y="1" Z="1"/>
+                                        <Rotation X="0.12820199" Y="1.4272417" Z="0.027114678"/>
+                                    </Transform>
+                                    <Children Size="1"/>
+                                    <Child0 Name="finger3.r_end" Visible="true" ObType="0" BoneIndex="26">
+                                        <Shader File="4.Cube.hlsl"/>
+                                        <Transform>
+                                            <Position X="2.7202143e-05" Y="0.32931882" Z="4.3403674e-05"/>
+                                            <Scale X="1" Y="1" Z="1"/>
+                                            <Rotation X="6.0363993e-05" Y="-4.0203624e-05" Z="8.6837565e-05"/>
+                                        </Transform>
+                                        <Children Size="0"/>
+                                    </Child0>
+                                </Child2>
+                                <Child3 Name="thumb.r" Visible="true" ObType="0" BoneIndex="27">
+                                    <Shader File="4.Cube.hlsl"/>
+                                    <Transform>
+                                        <Position X="0.082226761" Y="0.71710932" Z="0.0031596189"/>
+                                        <Scale X="1" Y="1" Z="1"/>
+                                        <Rotation X="1.0200107" Y="1.4625306" Z="0.042898327"/>
+                                    </Transform>
+                                    <Children Size="1"/>
+                                    <Child0 Name="thumb.r_end" Visible="true" ObType="0" BoneIndex="28">
+                                        <Shader File="4.Cube.hlsl"/>
+                                        <Transform>
+                                            <Position X="3.1097456e-06" Y="0.22732109" Z="6.8543151e-05"/>
+                                            <Scale X="1" Y="1" Z="1"/>
+                                            <Rotation X="-8.4052284e-05" Y="0" Z="-0"/>
+                                        </Transform>
+                                        <Children Size="0"/>
+                                    </Child0>
+                                </Child3>
+                            </Child0>
+                        </Child2>
+                    </Child0>
+                    <Child1 Name="hip" Visible="true" ObType="0" BoneIndex="29">
+                        <Shader File="4.Cube.hlsl"/>
+                        <Transform>
+                            <Position X="1.2325952e-32" Y="0.4928" Z="0"/>
+                            <Scale X="1" Y="1" Z="1"/>
+                            <Rotation X="-1.4207393" Y="-5.7821808e-07" Z="-3.141592"/>
+                        </Transform>
+                        <Children Size="2"/>
+                        <Child0 Name="thigh.l" Visible="true" ObType="0" BoneIndex="30">
+                            <Shader File="4.Cube.hlsl"/>
+                            <Transform>
+                                <Position X="0.2412" Y="0.2450061" Z="0.037043296"/>
+                                <Scale X="1" Y="0.99999994" Z="1"/>
+                                <Rotation X="-0.25340438" Y="0.092928842" Z="-0.36311683"/>
+                            </Transform>
+                            <Children Size="1"/>
+                            <Child0 Name="calf.l" Visible="true" ObType="0" BoneIndex="31">
+                                <Shader File="4.Cube.hlsl"/>
+                                <Transform>
+                                    <Position X="-3.4231438e-05" Y="0.62643003" Z="1.1477499e-06"/>
+                                    <Scale X="0.99999994" Y="1" Z="1"/>
+                                    <Rotation X="-0.51522249" Y="-3.0363936" Z="-0.39133218"/>
+                                </Transform>
+                                <Children Size="1"/>
+                                <Child0 Name="calf.l_end" Visible="true" ObType="0" BoneIndex="32">
+                                    <Shader File="4.Cube.hlsl"/>
+                                    <Transform>
+                                        <Position X="0" Y="0.76197898" Z="-2.0309339e-05"/>
+                                        <Scale X="1" Y="1" Z="1"/>
+                                        <Rotation X="0" Y="0" Z="-0"/>
+                                    </Transform>
+                                    <Children Size="0"/>
+                                </Child0>
+                            </Child0>
+                        </Child0>
+                        <Child1 Name="thigh.r" Visible="true" ObType="0" BoneIndex="33">
+                            <Shader File="4.Cube.hlsl"/>
+                            <Transform>
+                                <Position X="-0.2412" Y="0.2450061" Z="0.037043296"/>
+                                <Scale X="1" Y="0.99999994" Z="1"/>
+                                <Rotation X="-0.25340438" Y="-0.092928842" Z="0.36311683"/>
+                            </Transform>
+                            <Children Size="1"/>
+                            <Child0 Name="calf.r" Visible="true" ObType="0" BoneIndex="34">
+                                <Shader File="4.Cube.hlsl"/>
+                                <Transform>
+                                    <Position X="3.4231438e-05" Y="0.62643003" Z="1.1477499e-06"/>
+                                    <Scale X="0.99999994" Y="1" Z="1"/>
+                                    <Rotation X="-0.51522249" Y="3.0363936" Z="0.39133218"/>
+                                </Transform>
+                                <Children Size="1"/>
+                                <Child0 Name="calf.r_end" Visible="true" ObType="0" BoneIndex="35">
+                                    <Shader File="4.Cube.hlsl"/>
+                                    <Transform>
+                                        <Position X="-9.9999997e-05" Y="0.76207834" Z="-8.9997066e-06"/>
+                                        <Scale X="1" Y="1" Z="1"/>
+                                        <Rotation X="0" Y="0" Z="-0"/>
+                                    </Transform>
+                                    <Children Size="0"/>
+                                </Child0>
+                            </Child0>
+                        </Child1>
+                    </Child1>
+                </Child2>
+                <Child3 Name="footIK.l" Visible="true" ObType="0" BoneIndex="39">
+                    <Shader File="4.Cube.hlsl"/>
+                    <Transform>
+                        <Position X="-0.44909999" Y="0.4698" Z="0.25"/>
+                        <Scale X="1" Y="1" Z="1"/>
+                        <Rotation X="-1.5707963" Y="3.1415923" Z="0"/>
+                    </Transform>
+                    <Children Size="1"/>
+                    <Child0 Name="footPole.l" Visible="true" ObType="0" BoneIndex="40">
+                        <Shader File="4.Cube.hlsl"/>
+                        <Transform>
+                            <Position X="0.0319" Y="3.6238" Z="-0.7762"/>
+                            <Scale X="1" Y="1" Z="1"/>
+                            <Rotation X="0" Y="0" Z="-0"/>
+                        </Transform>
+                        <Children Size="1"/>
+                        <Child0 Name="footPole.l_end" Visible="true" ObType="0" BoneIndex="41">
+                            <Shader File="4.Cube.hlsl"/>
+                            <Transform>
+                                <Position X="1.110223e-16" Y="0.1969" Z="0"/>
+                                <Scale X="1" Y="1" Z="1"/>
+                                <Rotation X="0" Y="0" Z="-0"/>
+                            </Transform>
+                            <Children Size="0"/>
+                        </Child0>
+                    </Child0>
+                </Child3>
+                <Child4 Name="footIK.r" Visible="true" ObType="0" BoneIndex="42">
+                    <Shader File="4.Cube.hlsl"/>
+                    <Transform>
+                        <Position X="0.44909999" Y="0.4698" Z="0.25"/>
+                        <Scale X="1" Y="1" Z="1"/>
+                        <Rotation X="-1.5707963" Y="3.1415923" Z="0"/>
+                    </Transform>
+                    <Children Size="1"/>
+                    <Child0 Name="footPole.r" Visible="true" ObType="0" BoneIndex="43">
+                        <Shader File="4.Cube.hlsl"/>
+                        <Transform>
+                            <Position X="-0.0319" Y="3.6238" Z="-0.7762"/>
+                            <Scale X="1" Y="1" Z="1"/>
+                            <Rotation X="0" Y="0" Z="-0"/>
+                        </Transform>
+                        <Children Size="1"/>
+                        <Child0 Name="footPole.r_end" Visible="true" ObType="0" BoneIndex="44">
+                            <Shader File="4.Cube.hlsl"/>
+                            <Transform>
+                                <Position X="1.110223e-16" Y="0.1969" Z="0"/>
+                                <Scale X="1" Y="1" Z="1"/>
+                                <Rotation X="0" Y="0" Z="-0"/>
+                            </Transform>
+                            <Children Size="0"/>
+                        </Child0>
+                    </Child0>
+                </Child4>
+            </Child0>
+        </Child0>
+        <Child1 Name="Mesh" Visible="true" ObType="0" BoneIndex="2">
+            <Mesh File="beetleMesh/Mesh.mesh"/>
+            <Shader File="4.Cube.hlsl"/>
+            <Material File="beetleMesh/Default-Material.mtl"/>
+            <Transform>
+                <Position X="0" Y="0" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="-0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child1>
+    </Child0>
+    <Child1 Name="backHp" Visible="true" ObType="7" BoneIndex="-1">
+        <Mesh File="7.Billboard.mesh"/>
+        <Shader File="7.Billboard.hlsl"/>
+        <Material File="backHp.mtl"/>
+        <Transform>
+            <Position X="0" Y="3" Z="0"/>
+            <Scale X="1.7" Y="0.15000001" Z="1"/>
+            <Rotation X="-0.89999998" Y="0" Z="0"/>
+        </Transform>
+        <Children Size="0"/>
+    </Child1>
+    <Child2 Name="frontHp" Visible="true" ObType="7" BoneIndex="-1">
+        <Mesh File="7.Billboard.mesh"/>
+        <Shader File="7.Billboard.hlsl"/>
+        <Material File="frontHp.mtl"/>
+        <Transform>
+            <Position X="0" Y="3" Z="0"/>
+            <Scale X="1.7" Y="0.15000001" Z="1"/>
+            <Rotation X="-0.89999998" Y="0" Z="0"/>
+        </Transform>
+        <Children Size="0"/>
+    </Child2>
+</Root>

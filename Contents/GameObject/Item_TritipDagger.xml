@@ -1,0 +1,50 @@
+<Root Name="Root" Visible="true" ObType="1" BoneIndex="0">
+    <Skeleton File="TriTipDagger/TriTipDagger.skel" BoneIndexCount="4"/>
+    <Transform>
+        <Position X="0" Y="0" Z="0"/>
+        <Scale X="1" Y="1" Z="1"/>
+        <Rotation X="1.5707879" Y="0" Z="0"/>
+    </Transform>
+    <Children Size="1"/>
+    <Child0 Name="TriTipDagger.obj" Visible="true" ObType="0" BoneIndex="1">
+        <Transform>
+            <Position X="0" Y="0" Z="-0.60000002"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="-0"/>
+        </Transform>
+        <Children Size="3"/>
+        <Child0 Name="Collider" Visible="true" ObType="0" BoneIndex="-1">
+            <Collider ColliderType="2" Visible="true">
+                <Position X="0" Y="0" Z="-0.15000001"/>
+                <Scale X="0.1" Y="0.1" Z="0.69999999"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Collider>
+            <Transform>
+                <Position X="0" Y="0" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child0>
+        <Child1 Name="Plane" Visible="true" ObType="0" BoneIndex="2">
+            <Shader File="4.Cube.hlsl"/>
+            <Transform>
+                <Position X="0" Y="0" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="-0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child1>
+        <Child2 Name="Plane_0" Visible="true" ObType="0" BoneIndex="3">
+            <Mesh File="TriTipDagger/Plane_0.mesh"/>
+            <Shader File="4.Cube.hlsl"/>
+            <Material File="TriTipDagger/DefaultMaterial.mtl"/>
+            <Transform>
+                <Position X="0" Y="0" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="-0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child2>
+    </Child0>
+</Root>

@@ -1,0 +1,50 @@
+<Root Name="Root" Visible="true" ObType="1" BoneIndex="0">
+    <Skeleton File="syringe/syringe.skel" BoneIndexCount="3"/>
+    <Transform>
+        <Position X="0" Y="0" Z="0"/>
+        <Scale X="0.2" Y="0.2" Z="0.2"/>
+        <Rotation X="0" Y="0" Z="0"/>
+    </Transform>
+    <Children Size="1"/>
+    <Child0 Name="APRoundPickup.obj" Visible="true" ObType="0" BoneIndex="0">
+        <Transform>
+            <Position X="0" Y="1" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="-0"/>
+        </Transform>
+        <Children Size="3"/>
+        <Child0 Name="APRoundPickup" Visible="true" ObType="0" BoneIndex="0">
+            <Shader File="4.Cube.hlsl"/>
+            <Transform>
+                <Position X="0" Y="0" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="-0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child0>
+        <Child1 Name="APRoundPickup_0" Visible="true" ObType="0" BoneIndex="0">
+            <Mesh File="APRoundPickup/APRoundPickup_0.mesh"/>
+            <Shader File="4.Cube.hlsl"/>
+            <Material File="APRoundPickup/DefaultMaterial.mtl"/>
+            <Transform>
+                <Position X="0" Y="0" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="-0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child1>
+        <Child2 Name="Collider" Visible="true" ObType="0" BoneIndex="-1">
+            <Collider ColliderType="2" Visible="true">
+                <Position X="0" Y="0" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Collider>
+            <Transform>
+                <Position X="0" Y="0" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child2>
+    </Child0>
+</Root>

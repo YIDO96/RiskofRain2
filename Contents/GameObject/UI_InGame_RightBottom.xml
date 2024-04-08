@@ -1,0 +1,180 @@
+<Root Name="UI_RightBottom" Visible="true" ObType="4">
+    <Mesh File="6.UI.mesh"/>
+    <Shader File="6.UI.hlsl"/>
+    <Material File="UI_InGame_RightBottom.mtl"/>
+    <Transform>
+        <Position X="0.89999998" Y="-0.75" Z="0"/>
+        <Scale X="0.039999999" Y="0.079999998" Z="1"/>
+        <Rotation X="0" Y="0" Z="0"/>
+    </Transform>
+    <UI PivotX="0" PivotY="0"/>
+    <Children Size="7"/>
+    <Child0 Name="Item_CtrlImage" Visible="true" ObType="4">
+        <Mesh File="6.UI.mesh"/>
+        <Shader File="6.UI.hlsl"/>
+        <Material File="UI_InGame_RigthBottm_Item_Ctrl.mtl"/>
+        <Transform>
+            <Position X="-11.999996" Y="-0.29999995" Z="0"/>
+            <Scale X="0.5" Y="0.5" Z="1"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <UI PivotX="0" PivotY="0"/>
+        <Children Size="1"/>
+        <Child0 Name="Item_CtrlFont" Visible="true" ObType="4">
+            <Mesh File="6.UI.mesh"/>
+            <Shader File="6.UI.hlsl"/>
+            <Material File="UI_InGame_RigthBottm_Item_CtrlFont.mtl"/>
+            <Transform>
+                <Position X="0" Y="-2.3999996" Z="0"/>
+                <Scale X="1" Y="0.69999999" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <UI PivotX="0" PivotY="0"/>
+            <Children Size="0"/>
+        </Child0>
+    </Child0>
+    <Child1 Name="Item_TabImage" Visible="true" ObType="4">
+        <Mesh File="6.UI.mesh"/>
+        <Shader File="6.UI.hlsl"/>
+        <Material File="UI_InGame_RigthBottm_Item_Tab.mtl"/>
+        <Transform>
+            <Position X="-13.999998" Y="-0.29989427" Z="0"/>
+            <Scale X="0.5" Y="0.5" Z="1"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <UI PivotX="0" PivotY="0"/>
+        <Children Size="1"/>
+        <Child0 Name="Item_TabFont" Visible="true" ObType="4">
+            <Mesh File="6.UI.mesh"/>
+            <Shader File="6.UI.hlsl"/>
+            <Material File="UI_InGame_RigthBottm_Item_TabFont.mtl"/>
+            <Transform>
+                <Position X="0" Y="-2.3999996" Z="0"/>
+                <Scale X="1" Y="0.69999999" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <UI PivotX="0" PivotY="0"/>
+            <Children Size="0"/>
+        </Child0>
+    </Child1>
+    <Child2 Name="Skill_LShift" Visible="true" ObType="4">
+        <Mesh File="6.UI.mesh"/>
+        <Shader File="6.UI.hlsl"/>
+        <Material File="UI_InGame_RigthBottm_Skill_LShift.mtl"/>
+        <Transform>
+            <Position X="-4.7999992" Y="0" Z="0"/>
+            <Scale X="0.89999998" Y="0.89999998" Z="1"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <UI PivotX="0" PivotY="0"/>
+        <Children Size="1"/>
+        <Child0 Name="Skill_LShiftFont" Visible="true" ObType="4">
+            <Mesh File="6.UI.mesh"/>
+            <Shader File="6.UI.hlsl"/>
+            <Material File="UI_InGame_RigthBottm_Skill_LShiftFont.mtl"/>
+            <Transform>
+                <Position X="0" Y="-1.6666669" Z="0"/>
+                <Scale X="0.80000001" Y="0.40000001" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <UI PivotX="0" PivotY="0"/>
+            <Children Size="0"/>
+        </Child0>
+    </Child2>
+    <Child3 Name="Skill_M1" Visible="true" ObType="4">
+        <Mesh File="6.UI.mesh"/>
+        <Shader File="6.UI.hlsl"/>
+        <Material File="UI_InGame_RigthBottm_Skill_M1.mtl"/>
+        <Transform>
+            <Position X="-9.5999985" Y="0" Z="0"/>
+            <Scale X="0.89999998" Y="0.89999998" Z="1"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <UI PivotX="0" PivotY="0"/>
+        <Children Size="1"/>
+        <Child0 Name="Skill_M1Font" Visible="true" ObType="4">
+            <Mesh File="6.UI.mesh"/>
+            <Shader File="6.UI.hlsl"/>
+            <Material File="UI_InGame_RigthBottm_Skill_M1Font.mtl"/>
+            <Transform>
+                <Position X="0" Y="-1.6666669" Z="0"/>
+                <Scale X="0.60000002" Y="0.40000001" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <UI PivotX="0" PivotY="0"/>
+            <Children Size="0"/>
+        </Child0>
+    </Child3>
+    <Child4 Name="Skill_M2" Visible="true" ObType="4">
+        <Mesh File="6.UI.mesh"/>
+        <Shader File="6.UI.hlsl"/>
+        <Material File="UI_InGame_RigthBottm_Skill_M2.mtl"/>
+        <Transform>
+            <Position X="-7.1999998" Y="0" Z="0"/>
+            <Scale X="0.89999998" Y="0.89999998" Z="1"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <UI PivotX="0" PivotY="0"/>
+        <Children Size="1"/>
+        <Child0 Name="Skill_M2Font" Visible="true" ObType="4">
+            <Mesh File="6.UI.mesh"/>
+            <Shader File="6.UI.hlsl"/>
+            <Material File="UI_InGame_RigthBottm_Skill_M2Font.mtl"/>
+            <Transform>
+                <Position X="0" Y="-1.6666669" Z="0"/>
+                <Scale X="0.60000002" Y="0.40000001" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <UI PivotX="0" PivotY="0"/>
+            <Children Size="0"/>
+        </Child0>
+    </Child4>
+    <Child5 Name="Skill_QBox" Visible="true" ObType="4">
+        <Mesh File="6.UI.mesh"/>
+        <Shader File="6.UI.hlsl"/>
+        <Material File="UI_InGame_RigthBottm_Skill_QBox.mtl"/>
+        <Transform>
+            <Position X="0" Y="0" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <UI PivotX="0" PivotY="0"/>
+        <Children Size="1"/>
+        <Child0 Name="Skill_QFont" Visible="true" ObType="4">
+            <Mesh File="6.UI.mesh"/>
+            <Shader File="6.UI.hlsl"/>
+            <Material File="UI_InGame_RigthBottm_Skill_QFont.mtl"/>
+            <Transform>
+                <Position X="0" Y="-1.4999999" Z="0"/>
+                <Scale X="0.34999999" Y="0.34999999" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <UI PivotX="0" PivotY="0"/>
+            <Children Size="0"/>
+        </Child0>
+    </Child5>
+    <Child6 Name="Skill_R" Visible="true" ObType="4">
+        <Mesh File="6.UI.mesh"/>
+        <Shader File="6.UI.hlsl"/>
+        <Material File="UI_InGame_RigthBottm_Skill_R.mtl"/>
+        <Transform>
+            <Position X="-2.3999996" Y="0" Z="0"/>
+            <Scale X="0.89999998" Y="0.89999998" Z="1"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <UI PivotX="0" PivotY="0"/>
+        <Children Size="1"/>
+        <Child0 Name="Skill_RFont" Visible="true" ObType="4">
+            <Mesh File="6.UI.mesh"/>
+            <Shader File="6.UI.hlsl"/>
+            <Material File="UI_InGame_RigthBottm_Skill_RFont.mtl"/>
+            <Transform>
+                <Position X="0" Y="-1.6666669" Z="0"/>
+                <Scale X="0.34999999" Y="0.34999999" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <UI PivotX="0" PivotY="0"/>
+            <Children Size="0"/>
+        </Child0>
+    </Child6>
+</Root>

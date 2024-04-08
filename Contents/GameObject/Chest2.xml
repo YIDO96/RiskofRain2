@@ -1,0 +1,196 @@
+<Root Name="Root" Visible="true" ObType="1" BoneIndex="0">
+    <Skeleton File="Chest2/Chest2.skel" BoneIndexCount="21"/>
+    <Animations AnimSize="2" File0="Chest2/mdlChest2ani0.anim" File1="Chest2/mdlChest2ani1.anim"/>
+    <Transform>
+        <Position X="0" Y="0" Z="0"/>
+        <Scale X="0.40000001" Y="0.40000001" Z="0.40000001"/>
+        <Rotation X="0" Y="0" Z="0"/>
+    </Transform>
+    <Children Size="1"/>
+    <Child0 Name="RootNode" Visible="true" ObType="0" BoneIndex="1">
+        <Collider ColliderType="2" Visible="false">
+            <Position X="-0.15000001" Y="1.35" Z="-0.25"/>
+            <Scale X="2.2" Y="1.95" Z="2"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Collider>
+        <Transform>
+            <Position X="0" Y="0" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="-0"/>
+        </Transform>
+        <Children Size="2"/>
+        <Child0 Name="chest2Armature" Visible="true" ObType="0" BoneIndex="3">
+            <Shader File="4.Cube.hlsl"/>
+            <Transform>
+                <Position X="0" Y="0" Z="1.2325952e-32"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="1.5707963" Y="3.1415925" Z="0"/>
+            </Transform>
+            <Children Size="3"/>
+            <Child0 Name="Base" Visible="true" ObType="0" BoneIndex="10">
+                <Shader File="4.Cube.hlsl"/>
+                <Transform>
+                    <Position X="2.4651903e-32" Y="1.6778001" Z="0.1542"/>
+                    <Scale X="1" Y="1" Z="1"/>
+                    <Rotation X="-1.5707963" Y="-0" Z="0"/>
+                </Transform>
+                <Children Size="1"/>
+                <Child0 Name="Top" Visible="true" ObType="0" BoneIndex="11">
+                    <Shader File="4.Cube.hlsl"/>
+                    <Transform>
+                        <Position X="0" Y="1.9083" Z="-2.220446e-16"/>
+                        <Scale X="1" Y="1" Z="1"/>
+                        <Rotation X="0" Y="0" Z="-0"/>
+                    </Transform>
+                    <Children Size="3"/>
+                    <Child0 Name="Hydraulic.l" Visible="true" ObType="0" BoneIndex="18">
+                        <Shader File="4.Cube.hlsl"/>
+                        <Transform>
+                            <Position X="1.4251" Y="0.72780001" Z="-1.3612"/>
+                            <Scale X="1" Y="1" Z="1"/>
+                            <Rotation X="0" Y="0" Z="-0"/>
+                        </Transform>
+                        <Children Size="1"/>
+                        <Child0 Name="Hydraulic.l_end" Visible="true" ObType="0" BoneIndex="19">
+                            <Shader File="4.Cube.hlsl"/>
+                            <Transform>
+                                <Position X="0" Y="2.5871999" Z="-1.6653345e-16"/>
+                                <Scale X="1" Y="1" Z="1"/>
+                                <Rotation X="0" Y="0" Z="-0"/>
+                            </Transform>
+                            <Children Size="1"/>
+                            <Child0 Name="Hydraulic.l_end_end" Visible="true" ObType="0" BoneIndex="20">
+                                <Shader File="4.Cube.hlsl"/>
+                                <Transform>
+                                    <Position X="0" Y="2.5873001" Z="-0.00019999999"/>
+                                    <Scale X="1" Y="1" Z="1"/>
+                                    <Rotation X="0" Y="0" Z="-0"/>
+                                </Transform>
+                                <Children Size="0"/>
+                            </Child0>
+                        </Child0>
+                    </Child0>
+                    <Child1 Name="Hydraulic.m" Visible="true" ObType="0" BoneIndex="12">
+                        <Shader File="4.Cube.hlsl"/>
+                        <Transform>
+                            <Position X="-2.4651903e-32" Y="0.72780001" Z="-1.3612"/>
+                            <Scale X="1" Y="1" Z="1"/>
+                            <Rotation X="0" Y="0" Z="-0"/>
+                        </Transform>
+                        <Children Size="1"/>
+                        <Child0 Name="Hydraulic.m_end" Visible="true" ObType="0" BoneIndex="13">
+                            <Shader File="4.Cube.hlsl"/>
+                            <Transform>
+                                <Position X="0" Y="2.5871999" Z="-1.6653345e-16"/>
+                                <Scale X="1" Y="1" Z="1"/>
+                                <Rotation X="0" Y="0" Z="-0"/>
+                            </Transform>
+                            <Children Size="1"/>
+                            <Child0 Name="Hydraulic.m_end_end" Visible="true" ObType="0" BoneIndex="14">
+                                <Shader File="4.Cube.hlsl"/>
+                                <Transform>
+                                    <Position X="6.1629758e-33" Y="2.5873001" Z="-0.00019999999"/>
+                                    <Scale X="1" Y="1" Z="1"/>
+                                    <Rotation X="0" Y="0" Z="-0"/>
+                                </Transform>
+                                <Children Size="0"/>
+                            </Child0>
+                        </Child0>
+                    </Child1>
+                    <Child2 Name="Hydraulic.r" Visible="true" ObType="0" BoneIndex="15">
+                        <Shader File="4.Cube.hlsl"/>
+                        <Transform>
+                            <Position X="-1.4251" Y="0.72780001" Z="-1.3612"/>
+                            <Scale X="1" Y="1" Z="1"/>
+                            <Rotation X="0" Y="0" Z="-0"/>
+                        </Transform>
+                        <Children Size="1"/>
+                        <Child0 Name="Hydraulic.r_end" Visible="true" ObType="0" BoneIndex="16">
+                            <Shader File="4.Cube.hlsl"/>
+                            <Transform>
+                                <Position X="0" Y="2.5871999" Z="-1.6653345e-16"/>
+                                <Scale X="1" Y="1" Z="1"/>
+                                <Rotation X="0" Y="0" Z="-0"/>
+                            </Transform>
+                            <Children Size="1"/>
+                            <Child0 Name="Hydraulic.r_end_end" Visible="true" ObType="0" BoneIndex="17">
+                                <Shader File="4.Cube.hlsl"/>
+                                <Transform>
+                                    <Position X="0" Y="2.5873001" Z="-0.00019999999"/>
+                                    <Scale X="1" Y="1" Z="1"/>
+                                    <Rotation X="0" Y="0" Z="-0"/>
+                                </Transform>
+                                <Children Size="0"/>
+                            </Child0>
+                        </Child0>
+                    </Child2>
+                </Child0>
+            </Child0>
+            <Child1 Name="zipper1" Visible="true" ObType="0" BoneIndex="4">
+                <Shader File="4.Cube.hlsl"/>
+                <Transform>
+                    <Position X="0" Y="0" Z="-1.7631"/>
+                    <Scale X="1" Y="1" Z="1"/>
+                    <Rotation X="-1.5707963" Y="1.570796" Z="0"/>
+                </Transform>
+                <Children Size="1"/>
+                <Child0 Name="zipper1_end" Visible="true" ObType="0" BoneIndex="5">
+                    <Shader File="4.Cube.hlsl"/>
+                    <Transform>
+                        <Position X="0" Y="0.66479999" Z="-2.5493475e-17"/>
+                        <Scale X="1" Y="1" Z="1"/>
+                        <Rotation X="0" Y="0" Z="-0"/>
+                    </Transform>
+                    <Children Size="1"/>
+                    <Child0 Name="zipper1_end_end" Visible="true" ObType="0" BoneIndex="6">
+                        <Shader File="4.Cube.hlsl"/>
+                        <Transform>
+                            <Position X="0" Y="0.6649" Z="-2.549731e-17"/>
+                            <Scale X="1" Y="1" Z="1"/>
+                            <Rotation X="0" Y="0" Z="-0"/>
+                        </Transform>
+                        <Children Size="0"/>
+                    </Child0>
+                </Child0>
+            </Child1>
+            <Child2 Name="zipper1.001" Visible="true" ObType="0" BoneIndex="7">
+                <Shader File="4.Cube.hlsl"/>
+                <Transform>
+                    <Position X="0.0016" Y="-4.8148249e-35" Z="-1.7631"/>
+                    <Scale X="1" Y="1" Z="1"/>
+                    <Rotation X="0" Y="0" Z="-1.5707963"/>
+                </Transform>
+                <Children Size="1"/>
+                <Child0 Name="zipper1.001_end" Visible="true" ObType="0" BoneIndex="8">
+                    <Shader File="4.Cube.hlsl"/>
+                    <Transform>
+                        <Position X="4.0713383e-17" Y="0.6649" Z="0"/>
+                        <Scale X="1" Y="1" Z="1"/>
+                        <Rotation X="0" Y="0" Z="-0"/>
+                    </Transform>
+                    <Children Size="1"/>
+                    <Child0 Name="zipper1.001_end_end" Visible="true" ObType="0" BoneIndex="9">
+                        <Shader File="4.Cube.hlsl"/>
+                        <Transform>
+                            <Position X="4.0713383e-17" Y="0.6649" Z="0"/>
+                            <Scale X="1" Y="1" Z="1"/>
+                            <Rotation X="0" Y="0" Z="-0"/>
+                        </Transform>
+                        <Children Size="0"/>
+                    </Child0>
+                </Child0>
+            </Child2>
+        </Child0>
+        <Child1 Name="chest2Mesh" Visible="true" ObType="0" BoneIndex="2">
+            <Mesh File="Chest2/chest2Mesh.mesh"/>
+            <Shader File="4.Cube.hlsl"/>
+            <Material File="mdlChest2/Default-Material.mtl"/>
+            <Transform>
+                <Position X="0" Y="0" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="-0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child1>
+    </Child0>
+</Root>

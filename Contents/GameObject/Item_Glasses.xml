@@ -1,0 +1,50 @@
+<Root Name="Root" Visible="true" ObType="1" BoneIndex="0">
+    <Skeleton File="GlassesMesh/GlassesMesh.skel" BoneIndexCount="4"/>
+    <Transform>
+        <Position X="0" Y="0" Z="0"/>
+        <Scale X="0.30000001" Y="0.30000001" Z="0.30000001"/>
+        <Rotation X="1.5707879" Y="0" Z="0"/>
+    </Transform>
+    <Children Size="1"/>
+    <Child0 Name="GlassesMesh.obj" Visible="true" ObType="0" BoneIndex="1">
+        <Transform>
+            <Position X="0" Y="0" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="-0"/>
+        </Transform>
+        <Children Size="3"/>
+        <Child0 Name="Collider" Visible="true" ObType="0" BoneIndex="-1">
+            <Collider ColliderType="2" Visible="true">
+                <Position X="0" Y="0" Z="0"/>
+                <Scale X="3.7" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Collider>
+            <Transform>
+                <Position X="0" Y="0" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child0>
+        <Child1 Name="GlassesMesh" Visible="true" ObType="0" BoneIndex="2">
+            <Shader File="4.Cube.hlsl"/>
+            <Transform>
+                <Position X="0" Y="0" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="-0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child1>
+        <Child2 Name="GlassesMesh_0" Visible="true" ObType="0" BoneIndex="3">
+            <Mesh File="GlassesMesh/GlassesMesh_0.mesh"/>
+            <Shader File="4.Cube.hlsl"/>
+            <Material File="GlassesMesh/DefaultMaterial.mtl"/>
+            <Transform>
+                <Position X="0" Y="0" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="-0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child2>
+    </Child0>
+</Root>

@@ -1,0 +1,405 @@
+<Root Name="Root" Visible="true" ObType="1" BoneIndex="0">
+    <Skeleton File="mdlVagrant/mdlVagrant.skel" BoneIndexCount="43"/>
+    <Animations AnimSize="12" File0="/mdlVagrantAni0.anim" File1="/mdlVagrantAni1.anim" File2="/mdlVagrantAni2.anim" File3="/mdlVagrantAni3.anim" File4="/mdlVagrantAni4.anim" File5="/mdlVagrantAni5.anim" File6="/mdlVagrantAni6.anim" File7="/mdlVagrantAni7.anim" File8="/mdlVagrantAni8.anim" File9="/mdlVagrantAni9.anim" File10="/mdlVagrantAni10.anim" File11="/mdlVagrantAni11.anim"/>
+    <Material File="mdlVagrantAni/Default-Material.mtl"/>
+    <Transform>
+        <Position X="0" Y="26.200001" Z="0"/>
+        <Scale X="6" Y="6" Z="6"/>
+        <Rotation X="0" Y="0.88381153" Z="0"/>
+    </Transform>
+    <Children Size="2"/>
+    <Child0 Name="RootNode" Visible="true" ObType="0" BoneIndex="1">
+        <Collider ColliderType="2" Visible="true">
+            <Position X="0" Y="5" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Collider>
+        <Transform>
+            <Position X="0" Y="0" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="-0"/>
+        </Transform>
+        <Children Size="3"/>
+        <Child0 Name="VagrantArmature" Visible="true" ObType="0" BoneIndex="4">
+            <Shader File="4.Cube.hlsl"/>
+            <Transform>
+                <Position X="0" Y="0" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="1.5707963" Y="3.1415925" Z="0"/>
+            </Transform>
+            <Children Size="1"/>
+            <Child0 Name="DetatchedHull" Visible="true" ObType="0" BoneIndex="5">
+                <Shader File="4.Cube.hlsl"/>
+                <Transform>
+                    <Position X="0" Y="0" Z="-3.6351669"/>
+                    <Scale X="1" Y="1" Z="1"/>
+                    <Rotation X="-1.5707963" Y="-0" Z="0"/>
+                </Transform>
+                <Children Size="7"/>
+                <Child0 Name="Hull.003" Visible="true" ObType="0" BoneIndex="15">
+                    <Shader File="4.Cube.hlsl"/>
+                    <Transform>
+                        <Position X="0" Y="0.52249998" Z="-3.1993897e-17"/>
+                        <Scale X="1" Y="1" Z="1"/>
+                        <Rotation X="0" Y="0" Z="-0"/>
+                    </Transform>
+                    <Children Size="1"/>
+                    <Child0 Name="Hull.002" Visible="true" ObType="0" BoneIndex="16">
+                        <Shader File="4.Cube.hlsl"/>
+                        <Transform>
+                            <Position X="0" Y="0.52240002" Z="-3.1987776e-17"/>
+                            <Scale X="1" Y="1" Z="1"/>
+                            <Rotation X="0" Y="0" Z="-0"/>
+                        </Transform>
+                        <Children Size="1"/>
+                        <Child0 Name="Hull.004" Visible="true" ObType="0" BoneIndex="17">
+                            <Shader File="4.Cube.hlsl"/>
+                            <Transform>
+                                <Position X="0" Y="0.52249998" Z="-3.1993897e-17"/>
+                                <Scale X="1" Y="1" Z="1"/>
+                                <Rotation X="0" Y="0" Z="-0"/>
+                            </Transform>
+                            <Children Size="1"/>
+                            <Child0 Name="Hull.004_end" Visible="true" ObType="0" BoneIndex="18">
+                                <Shader File="4.Cube.hlsl"/>
+                                <Transform>
+                                    <Position X="0" Y="0.52249998" Z="-3.1993897e-17"/>
+                                    <Scale X="1" Y="1" Z="1"/>
+                                    <Rotation X="0" Y="0" Z="-0"/>
+                                </Transform>
+                                <Children Size="0"/>
+                            </Child0>
+                        </Child0>
+                    </Child0>
+                </Child0>
+                <Child1 Name="MajorFrill.001" Visible="true" ObType="0" BoneIndex="39">
+                    <Shader File="4.Cube.hlsl"/>
+                    <Transform>
+                        <Position X="-2.4651903e-32" Y="0.78369999" Z="-1.1781"/>
+                        <Scale X="1" Y="1" Z="1"/>
+                        <Rotation X="0" Y="1.5707964" Z="-1.5707964"/>
+                    </Transform>
+                    <Children Size="1"/>
+                    <Child0 Name="MajorFrill.001_end" Visible="true" ObType="0" BoneIndex="40">
+                        <Shader File="4.Cube.hlsl"/>
+                        <Transform>
+                            <Position X="0" Y="0.4445" Z="-2.7733391e-32"/>
+                            <Scale X="1" Y="1" Z="1"/>
+                            <Rotation X="0" Y="0" Z="-0"/>
+                        </Transform>
+                        <Children Size="0"/>
+                    </Child0>
+                </Child1>
+                <Child2 Name="MajorFrill.002" Visible="true" ObType="0" BoneIndex="41">
+                    <Shader File="4.Cube.hlsl"/>
+                    <Transform>
+                        <Position X="-1.0202" Y="0.78369999" Z="0.58899999"/>
+                        <Scale X="1" Y="1" Z="1"/>
+                        <Rotation X="0" Y="-2.617981" Z="-1.5707964"/>
+                    </Transform>
+                    <Children Size="1"/>
+                    <Child0 Name="MajorFrill.002_end" Visible="true" ObType="0" BoneIndex="42">
+                        <Shader File="4.Cube.hlsl"/>
+                        <Transform>
+                            <Position X="0" Y="0.44457957" Z="-1.1800519e-05"/>
+                            <Scale X="1" Y="1" Z="1"/>
+                            <Rotation X="0" Y="0" Z="-0"/>
+                        </Transform>
+                        <Children Size="0"/>
+                    </Child0>
+                </Child2>
+                <Child3 Name="MajorFrill.003" Visible="true" ObType="0" BoneIndex="19">
+                    <Shader File="4.Cube.hlsl"/>
+                    <Transform>
+                        <Position X="1.0202" Y="0.78369999" Z="0.58899999"/>
+                        <Scale X="1" Y="1" Z="1"/>
+                        <Rotation X="0" Y="-0.52361155" Z="-1.5707964"/>
+                    </Transform>
+                    <Children Size="1"/>
+                    <Child0 Name="MajorFrill.003_end" Visible="true" ObType="0" BoneIndex="20">
+                        <Shader File="4.Cube.hlsl"/>
+                        <Transform>
+                            <Position X="-1.110223e-16" Y="0.44457957" Z="1.1800519e-05"/>
+                            <Scale X="1" Y="1" Z="1"/>
+                            <Rotation X="0" Y="0" Z="-0"/>
+                        </Transform>
+                        <Children Size="0"/>
+                    </Child0>
+                </Child3>
+                <Child4 Name="Tentacle1.001" Visible="true" ObType="0" BoneIndex="30">
+                    <Shader File="4.Cube.hlsl"/>
+                    <Transform>
+                        <Position X="0.5467" Y="-0.0137" Z="-0.30790001"/>
+                        <Scale X="0.99999994" Y="1" Z="1"/>
+                        <Rotation X="0.066748895" Y="-1.0578895" Z="3.1415925"/>
+                    </Transform>
+                    <Children Size="1"/>
+                    <Child0 Name="Tentacle1.005" Visible="true" ObType="0" BoneIndex="31">
+                        <Shader File="4.Cube.hlsl"/>
+                        <Transform>
+                            <Position X="-4.3202155e-05" Y="0.46181992" Z="-4.452237e-05"/>
+                            <Scale X="1" Y="1" Z="1"/>
+                            <Rotation X="0" Y="0" Z="-0"/>
+                        </Transform>
+                        <Children Size="1"/>
+                        <Child0 Name="Tentacle1.003" Visible="true" ObType="0" BoneIndex="32">
+                            <Shader File="4.Cube.hlsl"/>
+                            <Transform>
+                                <Position X="9.3004644e-05" Y="0.46191716" Z="1.2346392e-07"/>
+                                <Scale X="1" Y="1" Z="1"/>
+                                <Rotation X="0" Y="0" Z="-0"/>
+                            </Transform>
+                            <Children Size="1"/>
+                            <Child0 Name="Tentacle1.007" Visible="true" ObType="0" BoneIndex="33">
+                                <Shader File="4.Cube.hlsl"/>
+                                <Transform>
+                                    <Position X="5.8702935e-06" Y="0.46181411" Z="4.2415184e-05"/>
+                                    <Scale X="1" Y="1" Z="1"/>
+                                    <Rotation X="0" Y="0" Z="-0"/>
+                                </Transform>
+                                <Children Size="1"/>
+                                <Child0 Name="Tentacle1.002" Visible="true" ObType="0" BoneIndex="34">
+                                    <Shader File="4.Cube.hlsl"/>
+                                    <Transform>
+                                        <Position X="-4.3202155e-05" Y="0.4619197" Z="-3.7852471e-05"/>
+                                        <Scale X="1" Y="1" Z="1"/>
+                                        <Rotation X="0" Y="0" Z="-0"/>
+                                    </Transform>
+                                    <Children Size="1"/>
+                                    <Child0 Name="Tentacle1.006" Visible="true" ObType="0" BoneIndex="35">
+                                        <Shader File="4.Cube.hlsl"/>
+                                        <Transform>
+                                            <Position X="5.8702935e-06" Y="0.46181411" Z="4.2415184e-05"/>
+                                            <Scale X="1" Y="1" Z="1"/>
+                                            <Rotation X="0" Y="0" Z="-0"/>
+                                        </Transform>
+                                        <Children Size="1"/>
+                                        <Child0 Name="Tentacle1.004" Visible="true" ObType="0" BoneIndex="36">
+                                            <Shader File="4.Cube.hlsl"/>
+                                            <Transform>
+                                                <Position X="5.8702935e-06" Y="0.46191388" Z="4.9085083e-05"/>
+                                                <Scale X="1" Y="1" Z="1"/>
+                                                <Rotation X="0" Y="0" Z="-0"/>
+                                            </Transform>
+                                            <Children Size="1"/>
+                                            <Child0 Name="Tentacle1.008" Visible="true" ObType="0" BoneIndex="37">
+                                                <Shader File="4.Cube.hlsl"/>
+                                                <Transform>
+                                                    <Position X="-4.3202155e-05" Y="0.46181992" Z="-4.452237e-05"/>
+                                                    <Scale X="1" Y="1" Z="1"/>
+                                                    <Rotation X="0" Y="0" Z="-0"/>
+                                                </Transform>
+                                                <Children Size="1"/>
+                                                <Child0 Name="Tentacle1.008_end" Visible="true" ObType="0" BoneIndex="38">
+                                                    <Shader File="4.Cube.hlsl"/>
+                                                    <Transform>
+                                                        <Position X="5.8702935e-06" Y="0.46191388" Z="4.9085083e-05"/>
+                                                        <Scale X="1" Y="1" Z="1"/>
+                                                        <Rotation X="3.106127e-05" Y="0" Z="0"/>
+                                                    </Transform>
+                                                    <Children Size="0"/>
+                                                </Child0>
+                                            </Child0>
+                                        </Child0>
+                                    </Child0>
+                                </Child0>
+                            </Child0>
+                        </Child0>
+                    </Child0>
+                </Child4>
+                <Child5 Name="Tentacle2.001" Visible="true" ObType="0" BoneIndex="6">
+                    <Shader File="4.Cube.hlsl"/>
+                    <Transform>
+                        <Position X="-0.54000002" Y="-0.0137" Z="-0.3195"/>
+                        <Scale X="1" Y="0.99999994" Z="1"/>
+                        <Rotation X="0.066747859" Y="1.0366538" Z="-3.1415925"/>
+                    </Transform>
+                    <Children Size="1"/>
+                    <Child0 Name="Tentacle2.005" Visible="true" ObType="0" BoneIndex="7">
+                        <Shader File="4.Cube.hlsl"/>
+                        <Transform>
+                            <Position X="-2.1840277e-05" Y="0.46181554" Z="1.5888643e-06"/>
+                            <Scale X="1" Y="1" Z="1"/>
+                            <Rotation X="-2.3341611e-06" Y="8.5872336e-05" Z="5.7403149e-06"/>
+                        </Transform>
+                        <Children Size="1"/>
+                        <Child0 Name="Tentacle2.003" Visible="true" ObType="0" BoneIndex="8">
+                            <Shader File="4.Cube.hlsl"/>
+                            <Transform>
+                                <Position X="-1.918829e-05" Y="0.46191528" Z="9.3351709e-06"/>
+                                <Scale X="1" Y="1" Z="1"/>
+                                <Rotation X="0" Y="0" Z="-0"/>
+                            </Transform>
+                            <Children Size="1"/>
+                            <Child0 Name="Tentacle2.007" Visible="true" ObType="0" BoneIndex="9">
+                                <Shader File="4.Cube.hlsl"/>
+                                <Transform>
+                                    <Position X="3.1727173e-05" Y="0.46182126" Z="-8.3210318e-05"/>
+                                    <Scale X="1" Y="1" Z="1"/>
+                                    <Rotation X="2.33375e-06" Y="-8.5879736e-05" Z="-5.740807e-06"/>
+                                </Transform>
+                                <Children Size="1"/>
+                                <Child0 Name="Tentacle2.002" Visible="true" ObType="0" BoneIndex="10">
+                                    <Shader File="4.Cube.hlsl"/>
+                                    <Transform>
+                                        <Position X="6.4230815e-05" Y="0.46191189" Z="5.9054211e-05"/>
+                                        <Scale X="1" Y="1" Z="1"/>
+                                        <Rotation X="0" Y="0" Z="-0"/>
+                                    </Transform>
+                                    <Children Size="1"/>
+                                    <Child0 Name="Tentacle2.006" Visible="true" ObType="0" BoneIndex="11">
+                                        <Shader File="4.Cube.hlsl"/>
+                                        <Transform>
+                                            <Position X="-2.1840277e-05" Y="0.46181554" Z="1.5888643e-06"/>
+                                            <Scale X="1" Y="1" Z="1"/>
+                                            <Rotation X="0" Y="0" Z="-0"/>
+                                        </Transform>
+                                        <Children Size="1"/>
+                                        <Child0 Name="Tentacle2.004" Visible="true" ObType="0" BoneIndex="12">
+                                            <Shader File="4.Cube.hlsl"/>
+                                            <Transform>
+                                                <Position X="-2.1840277e-05" Y="0.46191528" Z="8.2585348e-06"/>
+                                                <Scale X="1" Y="1" Z="1"/>
+                                                <Rotation X="0" Y="0" Z="-0"/>
+                                            </Transform>
+                                            <Children Size="1"/>
+                                            <Child0 Name="Tentacle2.008" Visible="true" ObType="0" BoneIndex="13">
+                                                <Shader File="4.Cube.hlsl"/>
+                                                <Transform>
+                                                    <Position X="-2.1840277e-05" Y="0.46181554" Z="1.5888643e-06"/>
+                                                    <Scale X="1" Y="1" Z="1"/>
+                                                    <Rotation X="0" Y="0" Z="-0"/>
+                                                </Transform>
+                                                <Children Size="1"/>
+                                                <Child0 Name="Tentacle2.008_end" Visible="true" ObType="0" BoneIndex="14">
+                                                    <Shader File="4.Cube.hlsl"/>
+                                                    <Transform>
+                                                        <Position X="-7.2750925e-05" Y="0.46180978" Z="8.7465589e-05"/>
+                                                        <Scale X="1" Y="1" Z="1"/>
+                                                        <Rotation X="-1.3797244e-05" Y="8.5872271e-05" Z="5.7403145e-06"/>
+                                                    </Transform>
+                                                    <Children Size="0"/>
+                                                </Child0>
+                                            </Child0>
+                                        </Child0>
+                                    </Child0>
+                                </Child0>
+                            </Child0>
+                        </Child0>
+                    </Child0>
+                </Child5>
+                <Child6 Name="Tentacle3.001" Visible="true" ObType="0" BoneIndex="21">
+                    <Shader File="4.Cube.hlsl"/>
+                    <Transform>
+                        <Position X="-0.0066999998" Y="-0.0137" Z="0.62739998"/>
+                        <Scale X="1" Y="0.99999994" Z="0.99999994"/>
+                        <Rotation X="0.066747814" Y="-3.1415458" Z="-3.1408911"/>
+                    </Transform>
+                    <Children Size="1"/>
+                    <Child0 Name="Tentacle3.005" Visible="true" ObType="0" BoneIndex="22">
+                        <Shader File="4.Cube.hlsl"/>
+                        <Transform>
+                            <Position X="2.2559989e-05" Y="0.46181577" Z="3.1338382e-06"/>
+                            <Scale X="1" Y="1" Z="1"/>
+                            <Rotation X="0" Y="0" Z="-0"/>
+                        </Transform>
+                        <Children Size="1"/>
+                        <Child0 Name="Tentacle3.003" Visible="true" ObType="0" BoneIndex="23">
+                            <Shader File="4.Cube.hlsl"/>
+                            <Transform>
+                                <Position X="-7.7369965e-05" Y="0.46191561" Z="9.8081482e-06"/>
+                                <Scale X="1" Y="1" Z="1"/>
+                                <Rotation X="0" Y="0" Z="-0"/>
+                            </Transform>
+                            <Children Size="1"/>
+                            <Child0 Name="Tentacle3.007" Visible="true" ObType="0" BoneIndex="24">
+                                <Shader File="4.Cube.hlsl"/>
+                                <Transform>
+                                    <Position X="2.2559989e-05" Y="0.46181577" Z="3.1338382e-06"/>
+                                    <Scale X="1" Y="1" Z="1"/>
+                                    <Rotation X="0" Y="0" Z="-0"/>
+                                </Transform>
+                                <Children Size="1"/>
+                                <Child0 Name="Tentacle3.002" Visible="true" ObType="0" BoneIndex="25">
+                                    <Shader File="4.Cube.hlsl"/>
+                                    <Transform>
+                                        <Position X="2.2629989e-05" Y="0.46191555" Z="9.8034798e-06"/>
+                                        <Scale X="1" Y="1" Z="1"/>
+                                        <Rotation X="0" Y="0" Z="-0"/>
+                                    </Transform>
+                                    <Children Size="1"/>
+                                    <Child0 Name="Tentacle3.006" Visible="true" ObType="0" BoneIndex="26">
+                                        <Shader File="4.Cube.hlsl"/>
+                                        <Transform>
+                                            <Position X="2.2559989e-05" Y="0.46181577" Z="3.1338382e-06"/>
+                                            <Scale X="1" Y="1" Z="1"/>
+                                            <Rotation X="0" Y="0" Z="-0"/>
+                                        </Transform>
+                                        <Children Size="1"/>
+                                        <Child0 Name="Tentacle3.004" Visible="true" ObType="0" BoneIndex="27">
+                                            <Shader File="4.Cube.hlsl"/>
+                                            <Transform>
+                                                <Position X="-7.7369965e-05" Y="0.46191561" Z="9.8081482e-06"/>
+                                                <Scale X="1" Y="1" Z="1"/>
+                                                <Rotation X="0" Y="0" Z="-0"/>
+                                            </Transform>
+                                            <Children Size="1"/>
+                                            <Child0 Name="Tentacle3.008" Visible="true" ObType="0" BoneIndex="28">
+                                                <Shader File="4.Cube.hlsl"/>
+                                                <Transform>
+                                                    <Position X="2.2559989e-05" Y="0.46181577" Z="3.1338382e-06"/>
+                                                    <Scale X="1" Y="1" Z="1"/>
+                                                    <Rotation X="0" Y="0" Z="-0"/>
+                                                </Transform>
+                                                <Children Size="1"/>
+                                                <Child0 Name="Tentacle3.008_end" Visible="true" ObType="0" BoneIndex="29">
+                                                    <Shader File="4.Cube.hlsl"/>
+                                                    <Transform>
+                                                        <Position X="-7.743996e-05" Y="0.46181583" Z="3.1385071e-06"/>
+                                                        <Scale X="1" Y="1" Z="1"/>
+                                                        <Rotation X="0" Y="0" Z="-0"/>
+                                                    </Transform>
+                                                    <Children Size="0"/>
+                                                </Child0>
+                                            </Child0>
+                                        </Child0>
+                                    </Child0>
+                                </Child0>
+                            </Child0>
+                        </Child0>
+                    </Child0>
+                </Child6>
+            </Child0>
+        </Child0>
+        <Child1 Name="VagrantMesh" Visible="true" ObType="0" BoneIndex="2">
+            <Mesh File="mdlVagrant/VagrantMesh.mesh"/>
+            <Shader File="4.Cube.hlsl"/>
+            <Material File="mdlVagrant/Default-Material.004.mtl"/>
+            <Transform>
+                <Position X="0" Y="0" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="-0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child1>
+        <Child2 Name="VagrantSkirtMesh" Visible="true" ObType="0" BoneIndex="3">
+            <Mesh File="mdlVagrant/VagrantSkirtMesh.mesh"/>
+            <Shader File="4.Cube.hlsl"/>
+            <Material File="mdlVagrant/skirtMaterial.mtl"/>
+            <Transform>
+                <Position X="0" Y="0" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="-0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child2>
+    </Child0>
+    <Child1 Name="bullet2start" Visible="true" ObType="1" BoneIndex="-1">
+        <Transform>
+            <Position X="0" Y="6.1083336" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Transform>
+        <Children Size="0"/>
+    </Child1>
+</Root>

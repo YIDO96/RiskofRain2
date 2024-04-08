@@ -1,0 +1,11 @@
+<Root Name="UI_BackGround" Visible="true" ObType="1">
+    <Mesh File="6.UI.mesh"/>
+    <Shader File="6.UI.hlsl"/>
+    <Material File="UI_StartScene_BackGround.mtl"/>
+    <Transform>
+        <Position X="0" Y="0" Z="0"/>
+        <Scale X="1" Y="1" Z="1"/>
+        <Rotation X="0" Y="0" Z="0"/>
+    </Transform>
+    <Children Size="0"/>
+</Root>

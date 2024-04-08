@@ -1,0 +1,11 @@
+<Root Name="Pop" Visible="true" ObType="8">
+    <Mesh File="8.Billboard.mesh"/>
+    <Shader File="8.Pop.hlsl"/>
+    <Material File="Particle_Boss1Bullet.mtl"/>
+    <Transform>
+        <Position X="0" Y="0" Z="0"/>
+        <Scale X="0.001" Y="0.00050000002" Z="1"/>
+        <Rotation X="0" Y="0" Z="0"/>
+    </Transform>
+    <Children Size="0"/>
+</Root>

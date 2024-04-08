@@ -1,0 +1,12 @@
+<Root Name="UI_Image_Ctrl" Visible="true" ObType="4">
+    <Mesh File="6.UI.mesh"/>
+    <Shader File="6.UI.hlsl"/>
+    <Material File="UI_InGame_Ctrl_Image.mtl"/>
+    <Transform>
+        <Position X="0.5" Y="-0.77999997" Z="0"/>
+        <Scale X="0.015" Y="0.029999999" Z="1"/>
+        <Rotation X="0" Y="0" Z="0"/>
+    </Transform>
+    <UI PivotX="0" PivotY="0"/>
+    <Children Size="0"/>
+</Root>

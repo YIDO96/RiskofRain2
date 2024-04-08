@@ -1,0 +1,12 @@
+<Root Name="UI" Visible="true" ObType="4">
+    <Mesh File="6.UI.mesh"/>
+    <Shader File="6.UI.hlsl"/>
+    <Material File="UI_InGame_PlayerHp_Image.mtl"/>
+    <Transform>
+        <Position X="-0.89899999" Y="-0.81300002" Z="0"/>
+        <Scale X="0.149" Y="0.028000001" Z="1"/>
+        <Rotation X="0" Y="0" Z="0.087265998"/>
+    </Transform>
+    <UI PivotX="1" PivotY="0"/>
+    <Children Size="0"/>
+</Root>

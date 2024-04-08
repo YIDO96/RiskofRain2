@@ -1,0 +1,12 @@
+<Root Name="UI_OptionBox" Visible="true" ObType="4">
+    <Mesh File="6.UI.mesh"/>
+    <Shader File="6.UI.hlsl"/>
+    <Material File="UI_SelectScene_optionBox.mtl"/>
+    <Transform>
+        <Position X="0.75" Y="0.050000001" Z="0.60000002"/>
+        <Scale X="0.2" Y="0.80000001" Z="1"/>
+        <Rotation X="0" Y="0" Z="3.1415758"/>
+    </Transform>
+    <UI PivotX="0" PivotY="0"/>
+    <Children Size="0"/>
+</Root>

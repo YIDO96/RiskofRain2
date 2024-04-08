@@ -1,0 +1,53 @@
+<Root Name="Root" Visible="true" ObType="1" BoneIndex="0">
+    <Skeleton File="mdlTeleporter/mdlTeleporter.skel" BoneIndexCount="5"/>
+    <Transform>
+        <Position X="0" Y="1.15" Z="0"/>
+        <Scale X="0.30000001" Y="0.30000001" Z="0.30000001"/>
+        <Rotation X="0" Y="0" Z="0"/>
+    </Transform>
+    <Children Size="1"/>
+    <Child0 Name="RootNode" Visible="true" ObType="0" BoneIndex="1">
+        <Collider ColliderType="2" Visible="false">
+            <Position X="0" Y="0" Z="0"/>
+            <Scale X="5.5" Y="7.0999999" Z="4.5999999"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Collider>
+        <Transform>
+            <Position X="0" Y="0" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="-0"/>
+        </Transform>
+        <Children Size="1"/>
+        <Child0 Name="mdlTeleporter1" Visible="true" ObType="0" BoneIndex="2">
+            <Shader File="4.Cube.hlsl"/>
+            <Transform>
+                <Position X="0" Y="0" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="-0"/>
+            </Transform>
+            <Children Size="2"/>
+            <Child0 Name="TeleporterMesh" Visible="true" ObType="0" BoneIndex="3">
+                <Mesh File="mdlTeleporter/TeleporterMesh.mesh"/>
+                <Shader File="4.Cube.hlsl"/>
+                <Material File="mdlTeleporter/Default-Material.mtl"/>
+                <Transform>
+                    <Position X="0" Y="0" Z="0"/>
+                    <Scale X="1" Y="1" Z="1"/>
+                    <Rotation X="1.5707963" Y="3.1415925" Z="0"/>
+                </Transform>
+                <Children Size="0"/>
+            </Child0>
+            <Child1 Name="TeleporterProngMesh" Visible="true" ObType="0" BoneIndex="4">
+                <Mesh File="mdlTeleporter/TeleporterProngMesh.mesh"/>
+                <Shader File="4.Cube.hlsl"/>
+                <Material File="mdlTeleporter/Default-Material.mtl"/>
+                <Transform>
+                    <Position X="0" Y="0" Z="0"/>
+                    <Scale X="1" Y="1" Z="1"/>
+                    <Rotation X="1.5707963" Y="3.1415925" Z="0"/>
+                </Transform>
+                <Children Size="0"/>
+            </Child1>
+        </Child0>
+    </Child0>
+</Root>

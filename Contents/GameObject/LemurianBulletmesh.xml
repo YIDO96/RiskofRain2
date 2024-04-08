@@ -1,0 +1,42 @@
+<Root Name="Root" Visible="true" ObType="1" BoneIndex="0">
+    <Skeleton File="eye/eye.skel" BoneIndexCount="4"/>
+    <Collider ColliderType="0" Visible="false">
+        <Position X="0.0099999998" Y="-0.30000001" Z="0.27500001"/>
+        <Scale X="0.34999999" Y="0.34999999" Z="0.34999999"/>
+        <Rotation X="0" Y="0" Z="0"/>
+    </Collider>
+    <Transform>
+        <Position X="0" Y="0" Z="0"/>
+        <Scale X="1" Y="1" Z="1"/>
+        <Rotation X="0" Y="0" Z="0"/>
+    </Transform>
+    <Children Size="1"/>
+    <Child0 Name="eye.obj" Visible="true" ObType="0" BoneIndex="1">
+        <Transform>
+            <Position X="0" Y="0" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="-0"/>
+        </Transform>
+        <Children Size="2"/>
+        <Child0 Name="eye" Visible="true" ObType="0" BoneIndex="2">
+            <Shader File="4.Cube.hlsl"/>
+            <Transform>
+                <Position X="0" Y="0" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="-0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child0>
+        <Child1 Name="eye_0" Visible="true" ObType="0" BoneIndex="3">
+            <Mesh File="eye/eye_0.mesh"/>
+            <Shader File="4.Cube.hlsl"/>
+            <Material File="Sphere2.mtl"/>
+            <Transform>
+                <Position X="0" Y="0" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="-0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child1>
+    </Child0>
+</Root>

@@ -1,0 +1,50 @@
+<Root Name="Root" Visible="true" ObType="1" BoneIndex="0">
+    <Skeleton File="InfusionPickupBlood/InfusionPickupBlood.skel" BoneIndexCount="4"/>
+    <Transform>
+        <Position X="0" Y="0" Z="0"/>
+        <Scale X="0.5" Y="0.5" Z="0.5"/>
+        <Rotation X="1.5707879" Y="0" Z="0"/>
+    </Transform>
+    <Children Size="1"/>
+    <Child0 Name="InfusionPickupBlood.obj" Visible="true" ObType="0" BoneIndex="1">
+        <Transform>
+            <Position X="0" Y="0" Z="-1.45"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="-0"/>
+        </Transform>
+        <Children Size="3"/>
+        <Child0 Name="Collider" Visible="true" ObType="0" BoneIndex="-1">
+            <Collider ColliderType="2" Visible="true">
+                <Position X="0" Y="0" Z="0.44999999"/>
+                <Scale X="0.25" Y="0.25" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Collider>
+            <Transform>
+                <Position X="0" Y="0" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child0>
+        <Child1 Name="InfusionPickupBlood" Visible="true" ObType="0" BoneIndex="2">
+            <Shader File="4.Cube.hlsl"/>
+            <Transform>
+                <Position X="0" Y="0" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="-0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child1>
+        <Child2 Name="InfusionPickupBlood_0" Visible="true" ObType="0" BoneIndex="3">
+            <Mesh File="InfusionPickupBlood/InfusionPickupBlood_0.mesh"/>
+            <Shader File="4.Cube.hlsl"/>
+            <Material File="InfusionPickupBlood/DefaultMaterial.mtl"/>
+            <Transform>
+                <Position X="0" Y="0" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="-0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child2>
+    </Child0>
+</Root>

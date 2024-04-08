@@ -1,0 +1,41 @@
+<Root Name="Root" Visible="true" ObType="1" BoneIndex="0">
+    <Skeleton File="syringe/syringe.skel" BoneIndexCount="3"/>
+    <Transform>
+        <Position X="0" Y="0" Z="0"/>
+        <Scale X="1" Y="1" Z="1"/>
+        <Rotation X="1.5707879" Y="0" Z="0"/>
+    </Transform>
+    <Children Size="1"/>
+    <Child0 Name="syringe.obj" Visible="true" ObType="0" BoneIndex="1">
+        <Transform>
+            <Position X="0" Y="0.60000002" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="-0"/>
+        </Transform>
+        <Children Size="2"/>
+        <Child0 Name="Collider" Visible="true" ObType="0" BoneIndex="-1">
+            <Collider ColliderType="2" Visible="true">
+                <Position X="0" Y="-0.55000001" Z="-0.55000001"/>
+                <Scale X="0.30000001" Y="0.34999999" Z="0.30000001"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Collider>
+            <Transform>
+                <Position X="0" Y="0" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child0>
+        <Child1 Name="simplified_syringe" Visible="true" ObType="0" BoneIndex="2">
+            <Mesh File="syringe/simplified_syringe.mesh"/>
+            <Shader File="4.Cube.hlsl"/>
+            <Material File="syringe/DefaultMaterial.mtl"/>
+            <Transform>
+                <Position X="0" Y="0" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="-0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child1>
+    </Child0>
+</Root>

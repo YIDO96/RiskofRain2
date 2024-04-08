@@ -1,0 +1,11 @@
+<Root Name="UI_Logo" Visible="true" ObType="1">
+    <Mesh File="6.UI.mesh"/>
+    <Shader File="6.UI.hlsl"/>
+    <Material File="UI_StartScene_Logo.mtl"/>
+    <Transform>
+        <Position X="0" Y="0.5" Z="0"/>
+        <Scale X="0.5" Y="0.5" Z="0.5"/>
+        <Rotation X="0" Y="0" Z="0"/>
+    </Transform>
+    <Children Size="0"/>
+</Root>

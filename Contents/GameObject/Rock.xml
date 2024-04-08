@@ -1,0 +1,41 @@
+<Root Name="Root" Visible="true" ObType="1">
+    <Transform>
+        <Position X="0" Y="0" Z="0"/>
+        <Scale X="0.25" Y="0.25" Z="0.25"/>
+        <Rotation X="0" Y="0" Z="0"/>
+    </Transform>
+    <Children Size="1"/>
+    <Child0 Name="RootNode" Visible="true" ObType="0">
+        <Collider ColliderType="2" Visible="false">
+            <Position X="-0.75" Y="2.5999999" Z="0"/>
+            <Scale X="7.0500002" Y="4.4499998" Z="5.25"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Collider>
+        <Transform>
+            <Position X="0" Y="0" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="-0"/>
+        </Transform>
+        <Children Size="1"/>
+        <Child0 Name="Rock_4" Visible="true" ObType="0">
+            <Shader File="4.Cube.hlsl"/>
+            <Transform>
+                <Position X="0" Y="0" Z="0"/>
+                <Scale X="2" Y="2" Z="2"/>
+                <Rotation X="0" Y="0" Z="-0"/>
+            </Transform>
+            <Children Size="1"/>
+            <Child0 Name="Rock_4__1_" Visible="true" ObType="0">
+                <Mesh File="Rock4/Rock_4__1_.mesh"/>
+                <Shader File="4.Cube.hlsl"/>
+                <Material File="Rock4/Rocks_4_roughness.mtl"/>
+                <Transform>
+                    <Position X="0" Y="0" Z="0"/>
+                    <Scale X="0.07" Y="0.07" Z="0.07"/>
+                    <Rotation X="0" Y="0" Z="-0"/>
+                </Transform>
+                <Children Size="0"/>
+            </Child0>
+        </Child0>
+    </Child0>
+</Root>

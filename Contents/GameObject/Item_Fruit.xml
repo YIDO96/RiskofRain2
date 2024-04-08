@@ -1,0 +1,42 @@
+<Root Name="Root" Visible="true" ObType="1" BoneIndex="0">
+    <Skeleton File="FruitMesh/FruitMesh.skel" BoneIndexCount="4"/>
+    <Transform>
+        <Position X="0" Y="0" Z="0"/>
+        <Scale X="1" Y="1" Z="1"/>
+        <Rotation X="0" Y="0" Z="0"/>
+    </Transform>
+    <Children Size="1"/>
+    <Child0 Name="FruitMesh.obj" Visible="true" ObType="0" BoneIndex="1">
+        <Collider ColliderType="2" Visible="true">
+            <Position X="0" Y="0" Z="0"/>
+            <Scale X="0.25" Y="0.25" Z="0.25"/>
+            <Rotation X="0" Y="0" Z="0"/>
+        </Collider>
+        <Transform>
+            <Position X="0" Y="0.34999999" Z="0"/>
+            <Scale X="1" Y="1" Z="1"/>
+            <Rotation X="0" Y="0" Z="-0"/>
+        </Transform>
+        <Children Size="2"/>
+        <Child0 Name="FruitMesh" Visible="true" ObType="0" BoneIndex="2">
+            <Shader File="4.Cube.hlsl"/>
+            <Transform>
+                <Position X="0" Y="0" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="0" Y="0" Z="-0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child0>
+        <Child1 Name="FruitMesh_0" Visible="true" ObType="0" BoneIndex="3">
+            <Mesh File="FruitMesh/FruitMesh_0.mesh"/>
+            <Shader File="4.Cube.hlsl"/>
+            <Material File="FruitMesh/DefaultMaterial.mtl"/>
+            <Transform>
+                <Position X="0" Y="0" Z="0"/>
+                <Scale X="1" Y="1" Z="1"/>
+                <Rotation X="1.5707879" Y="0" Z="-0"/>
+            </Transform>
+            <Children Size="0"/>
+        </Child1>
+    </Child0>
+</Root>

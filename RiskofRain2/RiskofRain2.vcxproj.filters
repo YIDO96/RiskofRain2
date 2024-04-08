@@ -3,10 +3,40 @@
   <ItemGroup>
     <ClInclude Include="Main.h" />
     <ClInclude Include="stdafx.h" />
-    <ClInclude Include="Scene1.h" />
+    <ClInclude Include="Scene1.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Scene1.cpp" />
+    <ClCompile Include="Scene1.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Player">
+      <UniqueIdentifier>{ff9fe143-3eb9-430c-af23-3436b23bcfbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Item">
+      <UniqueIdentifier>{e45574f0-335f-41fe-907e-6ea9f236f66f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{80cdaf3a-02f9-4626-a3ca-be8188159965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Monster">
+      <UniqueIdentifier>{c3f73609-f767-4b25-9b2d-46f15363f155}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{7bb2a158-de77-4601-b047-ee77231ed02c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{da7bc6f3-07a2-4c17-9643-1ac4d56d54f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{393a9acf-595c-45f5-9303-8e3c6bb6ab32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Feature">
+      <UniqueIdentifier>{d202b4a0-d491-4a52-84f5-f9aa9d405ead}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>
